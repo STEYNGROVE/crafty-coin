@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="g" x2="1" y2="1">
+<stop stop-color="#b8ff00"/>
+<stop offset="1" stop-color="#00d9ff"/>
+</linearGradient>
+</defs>
+<circle cx="256" cy="256" r="245" fill="#080b12" stroke="#b8ff00" stroke-width="12"/>
+<path d="M140 150L195 95L256 145L317 95L372 150L395 290L320 380H192L117 290Z" fill="url(#g)"/>
+<path d="M160 210L230 240L210 280L155 255ZM352 210L282 240L302 280L357 255Z" fill="#080b12"/>
+<path d="M205 315Q256 355 307 315" fill="none" stroke="#080b12" stroke-width="15" stroke-linecap="round"/>
+<text x="256" y="445" text-anchor="middle" font-family="Arial" font-weight="900" font-size="46" fill="#b8ff00">CRAFTY</text>
+</svg>

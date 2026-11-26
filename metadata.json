@@ -1,0 +1,21 @@
+{
+  "name": "Crafty Coin",
+  "symbol": "CRAFTY",
+  "description": "Stay Crafty. Think Infinite. An independent adult-only experimental Solana Devnet token with no monetary value.",
+  "image": "https://steyngrove.github.io/crafty-coin/assets/logo.svg",
+  "external_url": "https://steyngrove.github.io/crafty-coin/",
+  "attributes": [
+    {"trait_type":"Network","value":"Solana Devnet"},
+    {"trait_type":"Supply","value":"1000000000"},
+    {"trait_type":"Purpose","value":"Experimental"}
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://steyngrove.github.io/crafty-coin/assets/logo.svg",
+        "type": "image/svg+xml"
+      }
+    ]
+  }
+}
