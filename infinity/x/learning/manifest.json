@@ -1,0 +1,10 @@
+{
+  "name":"Crafty University of Life",
+  "short_name":"Crafty",
+  "id":"./",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#101528",
+  "theme_color":"#101528"
+}

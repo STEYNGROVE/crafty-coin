@@ -26,7 +26,8 @@ suites=[
     "marketplace/test_marketplace.py",
     "privacy/test_security.py",
     "platform/test_platform.py",
-    "finance/test_finance.py"
+    "finance/test_finance.py",
+    "x/backend/test_learning.py"
 ]
 
 results=[]
@@ -71,7 +72,7 @@ for suite in suites:
 
     print(f"PASS: {suite}: {count} tests")
 
-assert total==486, f"Unexpected total: {total}"
+assert total==504, f"Unexpected total: {total}"
 
 report={
     "mode":"SIMULATION_ONLY",

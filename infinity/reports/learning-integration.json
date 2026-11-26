@@ -1,0 +1,16 @@
+{
+  "phase": 30,
+  "status": "PASS",
+  "mode": "LOCAL_SYNTHETIC",
+  "connectedEducationEngines": 3,
+  "integrationTestsPassed": 18,
+  "persistentProgress": true,
+  "superheroDifficultyLevels": 3,
+  "virtualLifeActions": 7,
+  "learningActivities": 138,
+  "browserRuntimeVerified": false,
+  "httpRuntimeVerified": false,
+  "realAccountsEnabled": false,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

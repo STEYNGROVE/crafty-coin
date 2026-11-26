@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+ content="width=device-width,initial-scale=1">
+<title>Crafty Infinity X Business</title>
+<style>
+body{
+ background:#101528;color:white;
+ font:16px/1.6 system-ui;
+ max-width:900px;margin:auto;padding:24px
+}
+section{
+ background:#1c2540;border-radius:18px;
+ padding:20px;margin:20px 0
+}
+button,select{
+ font:inherit;padding:12px;
+ max-width:100%;margin:8px 0
+}
+</style>
+</head>
+<body>
+<h1>CRAFTY INFINITY X</h1>
+<p>Adult business development workspace</p>
+<p>Simulation only. No transactions,
+ live accounts or external service connections.</p>
+
+<section>
+<h2>Commercial services</h2>
+<div id="services"></div>
+</section>
+
+<section>
+<h2>Marketplace catalogue</h2>
+<label for="product">Illustrative product</label>
+<select id="product"></select>
+<p id="price"></p>
+<button id="draft">Calculate simulated quote</button>
+<p id="result" role="status"></p>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "phase": 28,
+  "mode": "LOCAL_DEVELOPMENT",
+  "catalogueValidation": "PASS",
+  "learningActivities": 138,
+  "activitiesPerPathway": 46,
+  "languages": 4,
+  "marketplaceProducts": 12,
+  "commercialServices": 7,
+  "browserRuntimeVerified": false,
+  "offlineRuntimeVerified": false,
+  "nativeAppInstalled": false,
+  "realPaymentsEnabled": false,
+  "childLiveAIEnabled": false,
+  "productionReadiness": "NO_GO"
+}

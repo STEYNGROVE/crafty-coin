@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+ content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101528">
+<title>Crafty University of Life</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<main>
+<header>
+<img id="crafty-master"
+ src="assets/crafty-master.webp"
+ alt="Crafty, the rainbow-winged superhero squad leader"
+ width="1536" height="1536">
+<div class="brand">CRAFTY</div>
+<h1>University of Life</h1>
+<p id="welcome">Welcome to Crafty's world.</p>
+</header>
+
+<section class="panel">
+<label for="pathway">Learning pathway</label>
+<select id="pathway">
+<option value="DISCOVER">Discover · Ages 4–7</option>
+<option value="EXPLORER">Explorer · Ages 8–12</option>
+<option value="FUTURE">Future · Ages 13–17</option>
+</select>
+
+<label for="language">Language</label>
+<select id="language">
+<option value="en">English</option>
+<option value="af">Afrikaans</option>
+<option value="st">Sesotho</option>
+<option value="zu">isiZulu</option>
+</select>
+
+<p id="privacy"></p>
+<p id="rest"></p>
+</section>
+
+<section class="panel">
+<h2>Your activities</h2>
+<p id="progress" aria-live="polite"></p>
+<progress id="meter" value="0" max="46"></progress>
+</section>
+
+<nav aria-label="Learning modules">
+<button data-module="academies">Academies</button>
+<button data-module="superheroes">Superheroes</button>
+<button data-module="worlds">Virtual Life</button>
+</nav>
+
+<label for="search">Find an activity</label>
+<input id="search" type="search"
+ placeholder="Search activities">
+
+<p id="choose"></p>
+<section class="panel" id="virtual-panel" hidden>
+<h2>Crafty's Virtual Life</h2>
+<p>Explore how decisions affect your virtual world.</p>
+<div id="virtual-resources"></div>
+<div id="virtual-actions"></div>
+</section>
+<section id="activities" class="grid"></section>
+
+<section class="panel">
+<h2>Local privacy controls</h2>
+<p>No account, camera, microphone or personal
+ information is required. Activity records stay in a private local database.</p>
+<button id="reset">Clear selected pathway progress</button>
+</section>
+
+<p id="status" role="status"></p>
+
+<footer>
+Development edition · Introductory activities
+ awaiting educational review.
+</footer>
+</main>
+</body>
+</html>
