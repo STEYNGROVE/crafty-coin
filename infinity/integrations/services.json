@@ -1,0 +1,47 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "services": [
+    {
+      "id": "PIXELPUNK",
+      "category": "WEBSITE_DEVELOPMENT",
+      "domain": "ADULT"
+    },
+    {
+      "id": "GPU_COMPUTE",
+      "category": "AI_COMPUTE",
+      "domain": "ADULT"
+    },
+    {
+      "id": "GHOSTMEDIA",
+      "category": "MEDIA_PRODUCTION",
+      "domain": "ADULT"
+    },
+    {
+      "id": "CRAFTY_BUSINESS",
+      "category": "BUSINESS_TOOLS",
+      "domain": "ADULT"
+    },
+    {
+      "id": "CRAFTY_MARKETPLACE",
+      "category": "DIGITAL_MARKETPLACE",
+      "domain": "ADULT"
+    },
+    {
+      "id": "CRAFTY_ACADEMY_ADULT",
+      "category": "ADULT_EDUCATION",
+      "domain": "ADULT"
+    },
+    {
+      "id": "CRAFTY_INFINITY",
+      "category": "ECOSYSTEM_SERVICES",
+      "domain": "ADULT"
+    }
+  ],
+  "liveConnectionsEnabled": false,
+  "automaticPurchases": false,
+  "automaticPublishing": false,
+  "realPayments": false,
+  "childDataAccess": false,
+  "tokenSettlement": false,
+  "externalRequests": false
+}

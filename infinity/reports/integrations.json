@@ -1,0 +1,17 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "registeredServices": 7,
+  "gatewayTestsPassed": 32,
+  "syntheticRequests": 700,
+  "reviewedRequests": 350,
+  "cancelledRequests": 350,
+  "actualCustomers": 0,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "actualTokensTransferred": 0,
+  "liveConnections": 0,
+  "childDataAccess": false,
+  "productionAuthentication": "NOT_IMPLEMENTED",
+  "productionReadiness": "NO_GO"
+}
