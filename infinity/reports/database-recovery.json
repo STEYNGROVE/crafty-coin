@@ -1,0 +1,18 @@
+{
+  "phase": 31,
+  "status": "PASS",
+  "mode": "LOCAL_SYNTHETIC",
+  "databaseEngines": 3,
+  "recoveryTestsPassed": 12,
+  "sqliteIntegrityChecks": true,
+  "foreignKeyVerification": true,
+  "checksumVerification": true,
+  "syntheticRestoreVerified": true,
+  "sourcePreservationVerified": true,
+  "automaticLiveOverwrite": false,
+  "crossDatabaseAtomicTransactions": false,
+  "liveDatabaseBackupVerified": false,
+  "offDeviceRecoveryVerified": false,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

@@ -1,8 +1,8 @@
 {
   "mode": "SIMULATION_ONLY",
   "status": "PASS",
-  "suites": 21,
-  "testsPassed": 504,
+  "suites": 22,
+  "testsPassed": 516,
   "results": [
     {
       "suite": "engine/presale.py",
@@ -107,6 +107,11 @@
     {
       "suite": "x/backend/test_learning.py",
       "tests": 18,
+      "status": "PASS"
+    },
+    {
+      "suite": "x/recovery/test_recovery.py",
+      "tests": 12,
       "status": "PASS"
     }
   ],

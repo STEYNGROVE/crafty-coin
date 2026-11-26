@@ -106,10 +106,11 @@
   "reports/commerce.json": "c6b63fa0963d7faa5a8df63522e9dba0e1143c2e70b1c810f8cc45831300dd42",
   "reports/core.json": "033e24b7b0101227db190ddae126cdc785d2b23c60b183ff89416bc34b5c0460",
   "reports/customers.json": "f5d17a3f59e626df58140284ca0d3747be9a719d7be738413355e7ce7f66d3c1",
+  "reports/database-recovery.json": "f5b49848889d3256c1248427a2d88b8ad928520ee1c0fa1c0906157474299013",
   "reports/education.json": "100de412c3e6645773318082f6a2cfab5d18a1b3dcfb20f839b0dbc13417fff8",
   "reports/family.json": "154605e664f28800d12b8361147b5da1e0bb14801754e4cbd7f4407c68a9370d",
   "reports/finance.json": "876b46a8c72ca13753254a887667e8502d381103e7f790396a34e19c39ab5066",
-  "reports/full-regression.json": "3b43e036ee301d9f94c940b2f33b8da76b0266c48c53f07f9ab22cf8df995e00",
+  "reports/full-regression.json": "958bb7e0333383adb426e51469e14d1d0f744bf2683cd586254db842bbfee838",
   "reports/integrations.json": "2fecdf1924585a7796d2c4086414ef8b8c030c3f4986733f91142289601982c4",
   "reports/language.json": "06095e4d8ab334e756987715a665536f246897e6f8289519887a0c62b2b123ce",
   "reports/learning-integration.json": "c47f3b04872f481d51394620ea0a5794663daf79f79ded82d9cabdbaae110364",
@@ -164,5 +165,7 @@
   "x/learning/index.html": "24aa4d5f15dd7a806c0ab14cfaf7a6526298cbd51f3182491eea947b946cfa7c",
   "x/learning/manifest.json": "a2f1a3d46ab1dcddb575ea113bb5fb0bbe9c998245d2861e6e01e73970e7a8eb",
   "x/learning/style.css": "7c95000b4d8082fb51c67d680fa9804a3893824706539cfda9306ff7a9832844",
-  "x/learning/sw.js": "d8021997739fe5db1bdb54746e5e9ee1da0068bf7f81b920dfdf9c0b65fd5bd8"
+  "x/learning/sw.js": "d8021997739fe5db1bdb54746e5e9ee1da0068bf7f81b920dfdf9c0b65fd5bd8",
+  "x/recovery/engine.py": "4afcd3c32f458b02288e555c0e594abb2281163fac109d6ecd6b949ed4d1ce89",
+  "x/recovery/test_recovery.py": "64f057e5ad0fec04728a45bb4f9acad913df15af4af8fbc272fe24051a6a00da"
 }
