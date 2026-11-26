@@ -1,0 +1,16 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "familyTestsPassed": 30,
+  "syntheticLearners": 100,
+  "syntheticActivities": 1000,
+  "consentRevocationsVerified": 100,
+  "realLearners": 0,
+  "realAccounts": 0,
+  "productionAuthentication": "NOT_IMPLEMENTED",
+  "independentPrivacyReview": "PENDING",
+  "actualExpenditureZAR": 0,
+  "childLiveAI": false,
+  "financialRewards": false,
+  "cryptoIntegration": false
+}

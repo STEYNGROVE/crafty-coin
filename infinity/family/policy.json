@@ -1,0 +1,22 @@
+{
+  "name": "Crafty Family and School Intelligence",
+  "mode": "SIMULATION_ONLY",
+  "minimumLearnerAge": 4,
+  "maximumLearnerAge": 17,
+  "roles": ["PARENT", "TEACHER", "LEARNER"],
+  "parentConsentRequired": true,
+  "teacherAccessRequiresConsent": true,
+  "learnerDeletionSupported": true,
+  "privateProgressReports": true,
+  "publicLeaderboards": false,
+  "behaviouralAdvertising": false,
+  "psychologicalDiagnosis": false,
+  "biometricTracking": false,
+  "locationTracking": false,
+  "microphoneRecording": false,
+  "childLiveAI": false,
+  "financialRewards": false,
+  "cryptoIntegration": false,
+  "externalDataSharing": false,
+  "realAccountsEnabled": false
+}
