@@ -1,0 +1,17 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "guide": "Crafty",
+  "worlds": 12,
+  "missions": 36,
+  "decisionTypes": 7,
+  "virtualLifeTestsPassed": 28,
+  "simulatedDecisions": 3000,
+  "acceptedDecisions": 2149,
+  "rejectedDecisions": 851,
+  "resourceBoundsVerified": true,
+  "realPlayers": 0,
+  "actualExpenditureZAR": 0,
+  "realPaymentsEnabled": false,
+  "mainnetEnabled": false
+}

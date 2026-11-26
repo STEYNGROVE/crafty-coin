@@ -31,3 +31,15 @@ for money or cryptocurrency.
 
 The educational and adult financial systems
 must remain separate.
+
+## Phases 19–20.1
+
+- Virtual Life: 12 worlds and 36 introductory missions.
+- Virtual Life: 3,000 simulated decisions.
+- Language Studio: four text languages.
+- Offline bundled synthetic audio with device voice fallback.
+- See reports/voice.json for actual supported audio languages.
+- Consolidated regression target: 292 tests.
+- Native-speaker review and browser audio verification pending.
+- Production readiness: NO_GO.
+- Financial operations and live child AI remain disabled.

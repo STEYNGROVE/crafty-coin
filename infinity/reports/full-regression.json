@@ -1,8 +1,8 @@
 {
   "mode": "SIMULATION_ONLY",
   "status": "PASS",
-  "suites": 12,
-  "testsPassed": 235,
+  "suites": 14,
+  "testsPassed": 292,
   "results": [
     {
       "suite": "engine/presale.py",
@@ -62,6 +62,16 @@
     {
       "suite": "squad/test_squad.py",
       "tests": 26,
+      "status": "PASS"
+    },
+    {
+      "suite": "virtual-life/test_life.py",
+      "tests": 28,
+      "status": "PASS"
+    },
+    {
+      "suite": "language/test_language.py",
+      "tests": 29,
       "status": "PASS"
     }
   ],

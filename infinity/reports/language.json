@@ -1,0 +1,20 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "guide": "Crafty",
+  "languages": [
+    "en",
+    "af",
+    "st",
+    "zu"
+  ],
+  "translatedMessages": 48,
+  "languageTestsPassed": 29,
+  "speechPlansVerified": 192,
+  "actualSpeechPlaybackVerified": false,
+  "translationExpertReview": "PENDING",
+  "microphoneRecording": false,
+  "cloudSpeech": false,
+  "liveAI": false,
+  "actualExpenditureZAR": 0
+}

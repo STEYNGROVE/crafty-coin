@@ -1,0 +1,58 @@
+{
+  "en": {
+    "welcome": "Welcome! Let's learn together.",
+    "start": "Start activity",
+    "continue": "Continue",
+    "help": "Ask a trusted adult for help.",
+    "reflect": "What did you learn?",
+    "complete": "Activity recorded.",
+    "rest": "You can take a break.",
+    "retry": "Try another way.",
+    "choose": "Choose an activity.",
+    "listen": "Listen to Crafty.",
+    "privacy": "Do not share personal information.",
+    "stop": "Stop"
+  },
+  "af": {
+    "welcome": "Welkom! Kom ons leer saam.",
+    "start": "Begin aktiwiteit",
+    "continue": "Gaan voort",
+    "help": "Vra 'n vertroude volwassene vir hulp.",
+    "reflect": "Wat het jy geleer?",
+    "complete": "Aktiwiteit aangeteken.",
+    "rest": "Jy kan 'n blaaskans neem.",
+    "retry": "Probeer 'n ander manier.",
+    "choose": "Kies 'n aktiwiteit.",
+    "listen": "Luister na Crafty.",
+    "privacy": "Moenie persoonlike inligting deel nie.",
+    "stop": "Stop"
+  },
+  "st": {
+    "welcome": "Rea u amohela! Ha re ithuteng hammoho.",
+    "start": "Qala ketsahalo",
+    "continue": "Tsoela pele",
+    "help": "Kopa motho e moholo eo u mo tšepang hore a u thuse.",
+    "reflect": "U ithutile eng?",
+    "complete": "Ketsahalo e tlalehiloe.",
+    "rest": "U ka phomola.",
+    "retry": "Leka tsela e 'ngoe.",
+    "choose": "Khetha ketsahalo.",
+    "listen": "Mamela Crafty.",
+    "privacy": "Se ke oa arolelana lintlha tsa hau.",
+    "stop": "Emisa"
+  },
+  "zu": {
+    "welcome": "Siyakwamukela! Masifunde ndawonye.",
+    "start": "Qala umsebenzi",
+    "continue": "Qhubeka",
+    "help": "Cela usizo kumuntu omdala omethembayo.",
+    "reflect": "Ufundeni?",
+    "complete": "Umsebenzi uqoshiwe.",
+    "rest": "Ungathatha ikhefu.",
+    "retry": "Zama enye indlela.",
+    "choose": "Khetha umsebenzi.",
+    "listen": "Lalela uCrafty.",
+    "privacy": "Ungabelani ngemininingwane yakho.",
+    "stop": "Yima"
+  }
+}

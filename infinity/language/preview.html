@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Crafty Language Studio</title>
+<style>
+body{
+ background:#101528;
+ color:white;
+ font-family:system-ui;
+ padding:24px;
+}
+main{max-width:650px;margin:auto}
+h1{color:#ffd43b}
+button,select{
+ font-size:17px;
+ padding:12px;
+ margin:8px 0;
+ border-radius:12px;
+}
+button{
+ background:#7938d4;
+ color:white;
+ border:1px solid #aaa;
+}
+#message{
+ font-size:24px;
+ background:#202944;
+ padding:20px;
+ border-radius:16px;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Crafty Language Studio</h1>
+<label for="language">Language</label>
+<select id="language">
+<option value="en">English</option>
+<option value="af">Afrikaans</option>
+<option value="st">Sesotho</option>
+<option value="zu">isiZulu</option>
+</select>
+<p id="message"></p>
+<button id="speak">Listen to Crafty</button>
+<button id="stop">Stop</button>
+<button id="recall">Active recall</button>
+<audio id="crafty-audio" preload="none"></audio>
+<p id="status" aria-live="polite"></p>
+<p>No microphone access or audio recording.
+Uses bundled audio or a matching local device voice.</p>
+</main>
+<script>
+let catalogue={};
+let voiceManifest={};
+
+const craftyAudio=
+ document.getElementById("crafty-audio");
+
+fetch("audio-manifest.json")
+ .then(r=>{
+  if(!r.ok)throw Error();
+  return r.json();
+ })
+ .then(data=>{
+  voiceManifest=data.audio||{};
+ })
+ .catch(()=>{});
+let key="welcome";
+
+const locales={
+ en:"en-ZA",af:"af-ZA",
+ st:"st-ZA",zu:"zu-ZA"
+};
+
+const language=document.getElementById("language");
+const message=document.getElementById("message");
+const status=document.getElementById("status");
+
+function stop(){
+ craftyAudio.pause();
+ craftyAudio.currentTime=0;
+ if("speechSynthesis" in window){
+  speechSynthesis.cancel();
+ }
+}
+
+function render(){
+ stop();
+ document.documentElement.lang=language.value;
+ message.textContent=
+  catalogue[language.value]?.[key]||"";
+}
+
+language.onchange=render;
+
+document.getElementById("recall").onclick=()=>{
+ key="reflect";
+ render();
+};
+
+document.getElementById("stop").onclick=stop;
+
+document.getElementById("speak").onclick=()=>{
+ stop();
+
+ const recording=
+  voiceManifest[language.value]?.[key];
+
+ if(recording){
+  craftyAudio.src=recording.file;
+
+  craftyAudio.play()
+   .then(()=>{
+    status.textContent=
+     "Playing Crafty's bundled voice.";
+   })
+   .catch(()=>{
+    status.textContent=
+     "Playback unavailable. Text remains available.";
+   });
+
+  return;
+ }
+
+ if(!("speechSynthesis" in window)){
+  status.textContent="Speech unavailable.";
+  return;
+ }
+
+ const lang=language.value;
+
+ const voice=speechSynthesis.getVoices().find(v=>
+  v.localService===true &&
+  v.lang.toLowerCase().split("-")[0]===lang
+ );
+
+ if(!voice){
+  status.textContent=
+   "No matching local voice. Text remains available.";
+  return;
+ }
+
+ const utterance=new SpeechSynthesisUtterance(
+  message.textContent
+ );
+
+ utterance.voice=voice;
+ utterance.lang=voice.lang;
+ utterance.rate=0.85;
+
+ utterance.onerror=()=>{
+  status.textContent="Local speech unavailable.";
+ };
+
+ status.textContent="Using local device voice.";
+ speechSynthesis.speak(utterance);
+};
+
+fetch("catalogue.json")
+ .then(r=>{
+  if(!r.ok)throw Error();
+  return r.json();
+ })
+ .then(data=>{
+  catalogue=data;
+  render();
+ })
+ .catch(()=>{
+  status.textContent="Language catalogue unavailable.";
+ });
+</script>
+</body>
+</html>

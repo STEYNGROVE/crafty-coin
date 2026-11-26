@@ -1,0 +1,84 @@
+{
+  "mode": "OFFLINE_SYNTHETIC_SPEECH",
+  "guide": "Crafty",
+  "engine": "eSpeak NG",
+  "status": "PARTIAL",
+  "languages": [
+    "af"
+  ],
+  "unavailableLanguages": [
+    "en",
+    "st",
+    "zu"
+  ],
+  "audioFiles": 12,
+  "nativeSpeakerReview": "PENDING",
+  "browserPlaybackVerified": false,
+  "microphoneRecording": false,
+  "cloudSpeech": false,
+  "actualExpenditureZAR": 0,
+  "audio": {
+    "af": {
+      "welcome": {
+        "file": "audio/af/welcome.mp3",
+        "durationSeconds": 2.98,
+        "sha256": "f5d64a777b6c674cc563b8c9c7352094cb45be06a4e9d04c5af82895d202def9"
+      },
+      "start": {
+        "file": "audio/af/start.mp3",
+        "durationSeconds": 1.68,
+        "sha256": "32e45ea511111977fcf41e0be8dcc3f902d768e3f4e8dfa97e2a3d8411c54785"
+      },
+      "continue": {
+        "file": "audio/af/continue.mp3",
+        "durationSeconds": 1.37,
+        "sha256": "26c0c2e11df07bf8e00fff527b1764c7c4a1e7a3f00eaee8a87aaac0030e5fce"
+      },
+      "help": {
+        "file": "audio/af/help.mp3",
+        "durationSeconds": 3.05,
+        "sha256": "90ec61c40d502a7c1e1772d2089ebcf91dba00c930959dae2f18bb7d000b801c"
+      },
+      "reflect": {
+        "file": "audio/af/reflect.mp3",
+        "durationSeconds": 1.78,
+        "sha256": "f8159e85f4124d4decacf8f457752d308e23e009f32048211da590ff9052eff3"
+      },
+      "complete": {
+        "file": "audio/af/complete.mp3",
+        "durationSeconds": 2.26,
+        "sha256": "cbf653a734929e23a67478986590dc853136e555257162a5fdffd418886ddc49"
+      },
+      "rest": {
+        "file": "audio/af/rest.mp3",
+        "durationSeconds": 2.14,
+        "sha256": "e6ba15ca7480324198ab36a9f20ad7e40596cef418c1fc74ebd17c4bc4c86913"
+      },
+      "retry": {
+        "file": "audio/af/retry.mp3",
+        "durationSeconds": 2.16,
+        "sha256": "262fffe0736e53ceb91c76fea88bac4f4ae7f62aedeba375aeac3e005cb34282"
+      },
+      "choose": {
+        "file": "audio/af/choose.mp3",
+        "durationSeconds": 1.66,
+        "sha256": "b190d9e5a6a27661cc5622978621b20d1c3437a202f9113d78c2d6c878ce0718"
+      },
+      "listen": {
+        "file": "audio/af/listen.mp3",
+        "durationSeconds": 1.82,
+        "sha256": "0b0505485a80855e4e7ca633db42c96e33d8b35ce166435e352de33a642a51be"
+      },
+      "privacy": {
+        "file": "audio/af/privacy.mp3",
+        "durationSeconds": 2.78,
+        "sha256": "bb3ab81b1d6c419f4b6df4f075789c37980d107c798bf823b221ff6c12b5f5bb"
+      },
+      "stop": {
+        "file": "audio/af/stop.mp3",
+        "durationSeconds": 0.89,
+        "sha256": "d08e1b3995449b3a75ebbf8e0e2d8bf3ad16ddc4df66d4c2f723eba626b950e1"
+      }
+    }
+  }
+}
