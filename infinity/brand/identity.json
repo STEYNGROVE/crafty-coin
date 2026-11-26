@@ -1,0 +1,58 @@
+{
+  "name": "Crafty",
+  "version": "1.0.0",
+  "character": {
+    "name": "Crafty",
+    "role": "Universal digital companion",
+    "appearance": [
+      "Rainbow feathered wings",
+      "Rainbow crest",
+      "Blue and white fur",
+      "Golden goggles",
+      "Expressive colourful eyes",
+      "Brain emblem",
+      "Blue superhero outfit"
+    ],
+    "personality": [
+      "Curious",
+      "Creative",
+      "Encouraging",
+      "Responsible",
+      "Resourceful"
+    ],
+    "artworkStatus": "REFERENCE_DEFINED_ASSET_PENDING"
+  },
+  "masterArtwork": "PENDING_ORIGINAL_ASSET",
+  "slogan": "Stay Crafty. Think Infinite.",
+  "vision": "From First Colours to Infinite Possibilities",
+  "preserveOriginalCharacter": true,
+  "palette": {
+    "blue": "#1677FF",
+    "purple": "#7938D4",
+    "pink": "#F43C9B",
+    "green": "#22B86A",
+    "yellow": "#FFD43B",
+    "orange": "#FF8C32",
+    "gold": "#E8BD58",
+    "navy": "#101528",
+    "white": "#FFFFFF"
+  },
+  "placements": [
+    "welcome",
+    "navigation",
+    "assistant",
+    "tutorial",
+    "loading",
+    "achievement",
+    "virtual-life",
+    "accessibility",
+    "support"
+  ],
+  "safety": {
+    "childCryptoPromotion": false,
+    "learningCreditConversion": false,
+    "financialSolicitation": false,
+    "childDataSharing": false,
+    "automaticPublishing": false
+  }
+}

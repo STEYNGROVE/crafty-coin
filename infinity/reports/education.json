@@ -1,0 +1,16 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "character": "Crafty",
+  "academies": 22,
+  "introductoryMissions": 66,
+  "agePathways": 3,
+  "educationTestsPassed": 25,
+  "syntheticMissionCompletions": 66,
+  "persistentProgressVerified": true,
+  "realLearners": 0,
+  "curriculumExpertReview": "PENDING",
+  "liveChildAI": false,
+  "cryptoRewards": false,
+  "actualExpenditureZAR": 0
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Crafty Brain Power Squad</title>
+<style>
+body{
+ background:#101528;
+ color:white;
+ font-family:system-ui;
+ margin:0;
+ padding:20px;
+}
+main{max-width:900px;margin:auto}
+h1{color:#ffd43b}
+h2{color:#8fcaff}
+.card{
+ background:#202944;
+ border:1px solid #6552a4;
+ border-radius:18px;
+ padding:18px;
+ margin:12px 0;
+}
+button,select{
+ padding:12px;
+ border-radius:12px;
+ border:1px solid #999;
+ font-size:16px;
+}
+button{
+ background:#7938d4;
+ color:white;
+}
+button:disabled{opacity:.6}
+</style>
+</head>
+<body>
+<main>
+<h1>CRAFTY</h1>
+<h2>The Brain Power Squad</h2>
+<p>Explore, create and learn at your own pace.</p>
+<p>Development demonstration. No personal
+information is collected.</p>
+<label for="age">Learning pathway</label>
+<select id="age">
+<option value="5">Discover: ages 4–7</option>
+<option value="10">Explorer: ages 8–12</option>
+<option value="15">Future: ages 13–17</option>
+</select>
+<p id="progress" aria-live="polite"></p>
+<div id="challenges"></div>
+</main>
+<script>
+let challenges=[];
+const completed=new Set();
+
+function render(){
+ const age=Number(
+  document.getElementById("age").value
+ );
+ const container=document.getElementById(
+  "challenges"
+ );
+ container.replaceChildren();
+
+ const items=challenges.filter(c=>
+  age>=c.minimumAge && age<=c.maximumAge
+ );
+
+ const count=items.filter(c=>
+  completed.has(c.id)
+ ).length;
+
+ document.getElementById("progress").textContent=
+  count+" of "+items.length+" activities tried";
+
+ for(const c of items){
+  const card=document.createElement("section");
+  card.className="card";
+
+  const heading=document.createElement("h2");
+  heading.textContent=c.hero+" — "+c.skill;
+
+  const activity=document.createElement("p");
+  activity.textContent=c.activity;
+
+  const reflection=document.createElement("p");
+  reflection.textContent=c.reflection;
+
+  const button=document.createElement("button");
+  button.textContent=completed.has(c.id)?
+   "Activity recorded":"I tried this activity";
+
+  button.disabled=completed.has(c.id);
+
+  button.addEventListener("click",()=>{
+   completed.add(c.id);
+   render();
+  });
+
+  card.append(
+   heading,activity,reflection,button
+  );
+  container.appendChild(card);
+ }
+}
+
+async function load(){
+ try{
+  const r=await fetch("challenges.json");
+  if(!r.ok)throw Error();
+  challenges=await r.json();
+  render();
+ }catch(e){
+  document.getElementById("progress").textContent=
+   "Challenges unavailable.";
+ }
+}
+
+document.getElementById("age")
+ .addEventListener("change",render);
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "brandTestsPassed": 17,
+  "applicationProfiles": 11,
+  "character": "Crafty",
+  "masterArtwork": "PENDING",
+  "liveIntegrations": 0,
+  "mainnetEnabled": false,
+  "realPaymentsEnabled": false
+}

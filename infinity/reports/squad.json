@@ -1,0 +1,15 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "leader": "Crafty",
+  "superheroes": 12,
+  "challenges": 36,
+  "agePathways": 3,
+  "squadTestsPassed": 26,
+  "syntheticProgressionRecords": 108,
+  "realLearners": 0,
+  "financialRewards": 0,
+  "cryptoRewards": 0,
+  "liveAIRequests": 0,
+  "actualExpenditureZAR": 0
+}

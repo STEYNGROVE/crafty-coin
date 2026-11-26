@@ -1,0 +1,12 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "provider": "GROQ",
+  "aiPolicyTestsPassed": 21,
+  "specializedRoles": 6,
+  "supportedAcademies": 22,
+  "configuredLanguages": 4,
+  "liveRequestsExecuted": 0,
+  "childLiveAIEnabled": false,
+  "actualExpenditureZAR": 0
+}

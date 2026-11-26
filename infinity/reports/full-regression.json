@@ -1,0 +1,70 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "suites": 12,
+  "testsPassed": 235,
+  "results": [
+    {
+      "suite": "engine/presale.py",
+      "tests": 9,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/treasury.py",
+      "tests": 13,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/mining.py",
+      "tests": 17,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/scarcity.py",
+      "tests": 20,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/customers.py",
+      "tests": 17,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/commerce.py",
+      "tests": 20,
+      "status": "PASS"
+    },
+    {
+      "suite": "engine/marketing.py",
+      "tests": 20,
+      "status": "PASS"
+    },
+    {
+      "suite": "core/test_core.py",
+      "tests": 30,
+      "status": "PASS"
+    },
+    {
+      "suite": "brand/test_brand.py",
+      "tests": 17,
+      "status": "PASS"
+    },
+    {
+      "suite": "ai/test_ai.py",
+      "tests": 21,
+      "status": "PASS"
+    },
+    {
+      "suite": "education/test_education.py",
+      "tests": 25,
+      "status": "PASS"
+    },
+    {
+      "suite": "squad/test_squad.py",
+      "tests": 26,
+      "status": "PASS"
+    }
+  ],
+  "productionReadiness": "NO_GO",
+  "actualExpenditureZAR": 0
+}

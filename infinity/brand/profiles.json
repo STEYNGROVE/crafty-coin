@@ -1,0 +1,112 @@
+[
+  {
+    "application": "ColourCraft Kids",
+    "domain": "EDUCATION",
+    "character": "Crafty",
+    "theme": "RAINBOW",
+    "mascotStyle": "LEARNING_COMPANION",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Academy",
+    "domain": "EDUCATION",
+    "character": "Crafty",
+    "theme": "RAINBOW",
+    "mascotStyle": "LEARNING_COMPANION",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Virtual Life",
+    "domain": "EDUCATION",
+    "character": "Crafty",
+    "theme": "RAINBOW",
+    "mascotStyle": "LEARNING_COMPANION",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Creative",
+    "domain": "EDUCATION",
+    "character": "Crafty",
+    "theme": "RAINBOW",
+    "mascotStyle": "LEARNING_COMPANION",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Fitness",
+    "domain": "EDUCATION",
+    "character": "Crafty",
+    "theme": "RAINBOW",
+    "mascotStyle": "LEARNING_COMPANION",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Business",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Marketplace",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Crafty Infinity",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "PIXELPUNK",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "GPU Compute OS",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  },
+  {
+    "application": "Ghostmedia",
+    "domain": "ADULT",
+    "character": "Crafty",
+    "theme": "PROFESSIONAL",
+    "mascotStyle": "ADULT_BRAND_EMBLEM",
+    "cryptoPromotion": false,
+    "financialActions": false,
+    "liveIntegration": false
+  }
+]

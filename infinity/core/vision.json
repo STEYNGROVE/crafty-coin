@@ -1,0 +1,92 @@
+{
+  "brand": "CRAFTY",
+  "universe": "The Crafty Universe",
+  "slogan": "Stay Crafty. Think Infinite.",
+  "vision": "From First Colours to Infinite Possibilities",
+  "mode": "SIMULATION_ONLY",
+  "character": {
+    "name": "Crafty",
+    "role": "Universal digital companion",
+    "appearance": [
+      "Rainbow feathered wings",
+      "Rainbow crest",
+      "Blue and white fur",
+      "Golden goggles",
+      "Expressive colourful eyes",
+      "Brain emblem",
+      "Blue superhero outfit"
+    ],
+    "personality": [
+      "Curious",
+      "Creative",
+      "Encouraging",
+      "Responsible",
+      "Resourceful"
+    ],
+    "artworkStatus": "REFERENCE_DEFINED_ASSET_PENDING"
+  },
+  "languages": ["en", "af", "st", "zu"],
+  "academies": [
+    "BrainLab",
+    "Psychology Academy",
+    "MindBalance",
+    "BodyLab",
+    "FitQuest",
+    "FutureTech",
+    "Cyber Guardian",
+    "ScienceLab",
+    "Invention Factory",
+    "Creative Studio",
+    "Language Academy",
+    "Mathematics Academy",
+    "Financial Academy",
+    "Business Academy",
+    "Leadership Academy",
+    "Survival Academy",
+    "Environmental Academy",
+    "Independent Living",
+    "Global Explorer",
+    "Career Academy",
+    "Driving Academy",
+    "Ethical Compass"
+  ],
+  "superheroes": [
+    {"name":"Recall","skill":"Memory"},
+    {"name":"Focus","skill":"Attention"},
+    {"name":"Logic","skill":"Reasoning"},
+    {"name":"Spark","skill":"Creativity"},
+    {"name":"Vision","skill":"Spatial thinking"},
+    {"name":"Echo","skill":"Language"},
+    {"name":"Pulse","skill":"Coordination"},
+    {"name":"Balance","skill":"Emotional regulation"},
+    {"name":"Quest","skill":"Problem solving"},
+    {"name":"Shift","skill":"Cognitive flexibility"},
+    {"name":"Plan","skill":"Executive function"},
+    {"name":"Connect","skill":"Social understanding"}
+  ],
+  "applications": [
+    {"name":"ColourCraft Kids","domain":"EDUCATION"},
+    {"name":"Crafty Academy","domain":"EDUCATION"},
+    {"name":"Crafty Virtual Life","domain":"EDUCATION"},
+    {"name":"Crafty Creative","domain":"EDUCATION"},
+    {"name":"Crafty Fitness","domain":"EDUCATION"},
+    {"name":"Crafty Business","domain":"ADULT"},
+    {"name":"Crafty Marketplace","domain":"ADULT"},
+    {"name":"Crafty Infinity","domain":"ADULT"},
+    {"name":"PIXELPUNK","domain":"ADULT"},
+    {"name":"GPU Compute OS","domain":"ADULT"},
+    {"name":"Ghostmedia","domain":"ADULT"}
+  ],
+  "pathways": [
+    {"name":"Discover","min":4,"max":7},
+    {"name":"Explorer","min":8,"max":12},
+    {"name":"Future","min":13,"max":17},
+    {"name":"Infinity","min":18,"max":120}
+  ],
+  "educationCredits": {
+    "name":"Crafty Learning Credits",
+    "transferable":false,
+    "convertibleToCrypto":false,
+    "cashValue":false
+  }
+}

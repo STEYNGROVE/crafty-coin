@@ -1,0 +1,20 @@
+{
+  "provider": "GROQ",
+  "mode": "OFFLINE_FIRST",
+  "liveRequestsEnabled": false,
+  "childLiveAIEnabled": false,
+  "automaticFinancialActions": false,
+  "automaticPublishing": false,
+  "persistentConversationStorage": false,
+  "maximumInputCharacters": 2000,
+  "maximumOutputTokens": 400,
+  "languages": ["en", "af", "st", "zu"],
+  "roles": [
+    "TUTOR",
+    "CREATOR",
+    "TECH",
+    "COACH",
+    "LIFE",
+    "PROFESSIONAL"
+  ]
+}

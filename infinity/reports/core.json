@@ -1,0 +1,26 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "character": "Crafty",
+  "academies": 22,
+  "superheroes": 12,
+  "applications": 11,
+  "languages": [
+    "en",
+    "af",
+    "st",
+    "zu"
+  ],
+  "syntheticProfiles": {
+    "EDUCATION": 6,
+    "ADULT": 4
+  },
+  "realUsers": 0,
+  "realPayments": 0,
+  "mainnetEnabled": false,
+  "creditConversionEnabled": false,
+  "liveAIConnected": false,
+  "coreTestsPassed": 30,
+  "apiChecksPassed": 11,
+  "status": "PASS",
+  "productionReadiness": "NO_GO"
+}

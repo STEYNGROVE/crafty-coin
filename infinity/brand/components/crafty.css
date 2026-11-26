@@ -1,0 +1,31 @@
+:root {
+ --crafty-blue:#1677FF;
+ --crafty-purple:#7938D4;
+ --crafty-gold:#E8BD58;
+ --crafty-navy:#101528;
+ --crafty-white:#FFFFFF;
+}
+.crafty-companion {
+ display:flex;
+ align-items:center;
+ gap:16px;
+ padding:18px;
+ border-radius:20px;
+ background:var(--crafty-navy);
+ color:var(--crafty-white);
+ font-family:system-ui,sans-serif;
+}
+.crafty-companion img {
+ width:100px;
+ height:100px;
+ object-fit:contain;
+}
+.crafty-companion strong {
+ color:var(--crafty-gold);
+}
+@media(prefers-reduced-motion:reduce){
+ .crafty-companion *{
+  animation:none!important;
+  transition:none!important;
+ }
+}

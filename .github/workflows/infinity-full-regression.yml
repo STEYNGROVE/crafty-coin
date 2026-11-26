@@ -1,0 +1,36 @@
+name: CRAFTY INFINITY Full Regression
+
+on:
+  push:
+    branches:
+      - feature/infinity-prelaunch
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify committed manifest
+        run: |
+          python infinity/security/verify_manifest.py infinity
+
+      - name: Run consolidated regression
+        run: |
+          python infinity/security/full_regression.py
+
+      - name: Verify security restrictions
+        run: |
+          python infinity/security/audit.py
+          python infinity/security/verify_manifest.py infinity
