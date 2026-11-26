@@ -1,0 +1,722 @@
+[
+  {
+    "day": 1,
+    "channel": "WEBSITE",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 2,
+    "channel": "X",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 3,
+    "channel": "REDDIT",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 4,
+    "channel": "DISCORD",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 5,
+    "channel": "TELEGRAM",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 6,
+    "channel": "YOUTUBE",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 7,
+    "channel": "LINKEDIN",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 8,
+    "channel": "FACEBOOK",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 9,
+    "channel": "INSTAGRAM",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 10,
+    "channel": "NEWSLETTER",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 11,
+    "channel": "GITHUB",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 12,
+    "channel": "PARTNERS",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 13,
+    "channel": "WEBSITE",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 14,
+    "channel": "X",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 15,
+    "channel": "REDDIT",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 16,
+    "channel": "DISCORD",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 17,
+    "channel": "TELEGRAM",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 18,
+    "channel": "YOUTUBE",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 19,
+    "channel": "LINKEDIN",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 20,
+    "channel": "FACEBOOK",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 21,
+    "channel": "INSTAGRAM",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 22,
+    "channel": "NEWSLETTER",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 23,
+    "channel": "GITHUB",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 24,
+    "channel": "PARTNERS",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 25,
+    "channel": "WEBSITE",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 26,
+    "channel": "X",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 27,
+    "channel": "REDDIT",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 28,
+    "channel": "DISCORD",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 29,
+    "channel": "TELEGRAM",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 30,
+    "channel": "YOUTUBE",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 31,
+    "channel": "LINKEDIN",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 32,
+    "channel": "FACEBOOK",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 33,
+    "channel": "INSTAGRAM",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 34,
+    "channel": "NEWSLETTER",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 35,
+    "channel": "GITHUB",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 36,
+    "channel": "PARTNERS",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 37,
+    "channel": "WEBSITE",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 38,
+    "channel": "X",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 39,
+    "channel": "REDDIT",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 40,
+    "channel": "DISCORD",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 41,
+    "channel": "TELEGRAM",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 42,
+    "channel": "YOUTUBE",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 43,
+    "channel": "LINKEDIN",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 44,
+    "channel": "FACEBOOK",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 45,
+    "channel": "INSTAGRAM",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 46,
+    "channel": "NEWSLETTER",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 47,
+    "channel": "GITHUB",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 48,
+    "channel": "PARTNERS",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 49,
+    "channel": "WEBSITE",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 50,
+    "channel": "X",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 51,
+    "channel": "REDDIT",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 52,
+    "channel": "DISCORD",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 53,
+    "channel": "TELEGRAM",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 54,
+    "channel": "YOUTUBE",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 55,
+    "channel": "LINKEDIN",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 56,
+    "channel": "FACEBOOK",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 57,
+    "channel": "INSTAGRAM",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 58,
+    "channel": "NEWSLETTER",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 59,
+    "channel": "GITHUB",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 60,
+    "channel": "PARTNERS",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 61,
+    "channel": "WEBSITE",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 62,
+    "channel": "X",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 63,
+    "channel": "REDDIT",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 64,
+    "channel": "DISCORD",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 65,
+    "channel": "TELEGRAM",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 66,
+    "channel": "YOUTUBE",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 67,
+    "channel": "LINKEDIN",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 68,
+    "channel": "FACEBOOK",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 69,
+    "channel": "INSTAGRAM",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 70,
+    "channel": "NEWSLETTER",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 71,
+    "channel": "GITHUB",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 72,
+    "channel": "PARTNERS",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 73,
+    "channel": "WEBSITE",
+    "topic": "Founder vesting",
+    "content": "CRAFTY INFINITY development update: Founder vesting. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 74,
+    "channel": "X",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 75,
+    "channel": "REDDIT",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 76,
+    "channel": "DISCORD",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 77,
+    "channel": "TELEGRAM",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 78,
+    "channel": "YOUTUBE",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 79,
+    "channel": "LINKEDIN",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 80,
+    "channel": "FACEBOOK",
+    "topic": "Development transparency",
+    "content": "CRAFTY INFINITY development update: Development transparency. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 81,
+    "channel": "INSTAGRAM",
+    "topic": "Commercial utility research",
+    "content": "CRAFTY INFINITY development update: Commercial utility research. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 82,
+    "channel": "NEWSLETTER",
+    "topic": "Fixed supply mathematics",
+    "content": "CRAFTY INFINITY development update: Fixed supply mathematics. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 83,
+    "channel": "GITHUB",
+    "topic": "Mining reward simulation",
+    "content": "CRAFTY INFINITY development update: Mining reward simulation. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 84,
+    "channel": "PARTNERS",
+    "topic": "Treasury safeguards",
+    "content": "CRAFTY INFINITY development update: Treasury safeguards. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 85,
+    "channel": "WEBSITE",
+    "topic": "Risk education",
+    "content": "CRAFTY INFINITY development update: Risk education. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 86,
+    "channel": "X",
+    "topic": "Merchant opportunities",
+    "content": "CRAFTY INFINITY development update: Merchant opportunities. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 87,
+    "channel": "REDDIT",
+    "topic": "Creator ecosystem",
+    "content": "CRAFTY INFINITY development update: Creator ecosystem. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 88,
+    "channel": "DISCORD",
+    "topic": "Security progress",
+    "content": "CRAFTY INFINITY development update: Security progress. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 89,
+    "channel": "TELEGRAM",
+    "topic": "Development milestones",
+    "content": "CRAFTY INFINITY development update: Development milestones. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  },
+  {
+    "day": 90,
+    "channel": "YOUTUBE",
+    "topic": "Project introduction",
+    "content": "CRAFTY INFINITY development update: Project introduction. Adult-only project research. No token sale is open. No investment returns are promised.",
+    "status": "DRAFT",
+    "budgetZAR": 0
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "mainnetEnabled": false,
+  "realPaymentsEnabled": false,
+  "presaleEnabled": false,
+  "withdrawalsEnabled": false,
+  "liveBurnsEnabled": false,
+  "liveBuybacksEnabled": false,
+  "paidAdvertisingEnabled": false,
+  "paidInfrastructureEnabled": false,
+  "bankVerified": false,
+  "legalApproved": false,
+  "escrowVerified": false,
+  "securityAuditApproved": false,
+  "treasurySignersRequired": 2,
+  "treasuryTotalSigners": 3
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>CRAFTY Marketing Research</title>
+<style>
+body{background:#080b12;color:white;
+font-family:system-ui;padding:20px;margin:0}
+main{max-width:900px;margin:auto}
+h1,h2,a,strong{color:#e8c16b}
+.card{background:#121824;border:1px solid #30394a;
+padding:18px;border-radius:15px;margin:12px 0}
+</style>
+</head>
+<body>
+<main>
+<a href="index.html">CRAFTY INFINITY</a>
+<h1>Marketing Control Centre</h1>
+<p>Internal development preview.</p>
+<p>No campaigns have been published.</p>
+<div id="stats"></div>
+<h2>Acquisition scenarios</h2>
+<div id="scenarios"></div>
+<h2>90-day draft calendar</h2>
+<div id="calendar"></div>
+</main>
+<script>
+function card(parent,title,description){
+ const box=document.createElement("div");
+ box.className="card";
+ const h=document.createElement("strong");
+ h.textContent=title;
+ const p=document.createElement("p");
+ p.textContent=description;
+ box.append(h,p);
+ document.getElementById(parent).appendChild(box);
+}
+async function load(){
+ try{
+  const r=await fetch("marketing.json");
+  if(!r.ok)throw Error();
+  const d=await r.json();
+  if(d.mode!=="SIMULATION_ONLY")throw Error();
+
+  for(const [key,value] of
+      Object.entries(d.statistics)){
+   card("stats",key,String(value));
+  }
+
+  for(const s of d.scenarios){
+   card("scenarios",s.scenario,
+    "Hypothetical demand: R"+
+    s.hypotheticalDemandZAR.toLocaleString()+
+    " | Actual funding: R0");
+  }
+
+  for(const day of d.calendar){
+   card("calendar",
+    "Day "+day.day+" — "+day.channel,
+    day.content);
+  }
+ }catch(e){
+  document.getElementById("stats").textContent=
+   "Report unavailable";
+ }
+}
+load();
+</script>
+</body>
+</html>

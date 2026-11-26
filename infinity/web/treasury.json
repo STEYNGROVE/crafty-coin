@@ -1,0 +1,14 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "simulatedDepositsCents": 850000,
+  "simulatedRefundsCents": 100000,
+  "simulatedEscrowCents": 750000,
+  "refundLiabilityCents": 750000,
+  "ledgerDebitCents": 950000,
+  "ledgerCreditCents": 950000,
+  "realFundsCollectedCents": 0,
+  "authorizedSpendingCents": 0,
+  "mainnetEnabled": false,
+  "realPaymentsEnabled": false,
+  "reconciliation": "PASS"
+}

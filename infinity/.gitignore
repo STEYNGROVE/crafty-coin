@@ -1,0 +1,12 @@
+
+.env
+.env.*
+*.key
+*keypair*.json
+*wallet*.json
+*secret*.json
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+node_modules/

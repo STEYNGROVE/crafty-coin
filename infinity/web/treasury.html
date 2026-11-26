@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<title>CRAFTY Treasury</title>
+<style>
+body{background:#080b12;color:white;
+font-family:system-ui;margin:0;padding:20px}
+main{max-width:800px;margin:auto}
+h1,h2,a,strong{color:#e8c16b}
+.card{background:#121824;border:1px solid #30394a;
+padding:20px;border-radius:15px;margin:12px 0}
+strong{display:block;font-size:30px}
+</style>
+</head>
+<body>
+<main>
+<a href="index.html">CRAFTY INFINITY</a>
+<h1>Treasury Control Centre</h1>
+<p>SIMULATION ONLY — Read-only demonstration</p>
+<div id="dashboard"></div>
+<div class="card">
+<h2>Financial controls</h2>
+<p>Mainnet: LOCKED</p>
+<p>Real payments: LOCKED</p>
+<p>Withdrawals: LOCKED</p>
+<p>Independent escrow: NOT CONNECTED</p>
+</div>
+</main>
+<script>
+async function load(){
+ const root=document.getElementById("dashboard");
+ try{
+  const r=await fetch("treasury.json");
+  if(!r.ok)throw Error("Report unavailable");
+  const d=await r.json();
+  if(d.mode!=="SIMULATION_ONLY")
+   throw Error("Unexpected mode");
+
+  const fields=[
+   ["Simulated deposits",d.simulatedDepositsCents],
+   ["Simulated refunds",d.simulatedRefundsCents],
+   ["Simulated escrow",d.simulatedEscrowCents],
+   ["Refund liability",d.refundLiabilityCents],
+   ["Real funds collected",d.realFundsCollectedCents],
+   ["Authorized spending",d.authorizedSpendingCents]
+  ];
+
+  for(const [label,value] of fields){
+   const box=document.createElement("div");
+   box.className="card";
+   box.textContent=label;
+   const amount=document.createElement("strong");
+   amount.textContent="R"+(value/100).toLocaleString(
+    "en-ZA",{minimumFractionDigits:2}
+   );
+   box.appendChild(amount);
+   root.appendChild(box);
+  }
+
+  const p=document.createElement("p");
+  p.textContent="Reconciliation: "+d.reconciliation;
+  root.appendChild(p);
+
+ }catch(e){
+  root.textContent="Treasury report unavailable";
+ }
+}
+load();
+</script>
+</body>
+</html>

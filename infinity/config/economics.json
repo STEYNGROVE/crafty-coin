@@ -1,0 +1,24 @@
+{
+  "name": "CRAFTY INFINITY",
+  "symbol": "CRAFTY",
+  "mode": "SIMULATION_ONLY",
+  "maximumSupply": 1000000,
+  "decimals": 9,
+  "presalePriceZAR": 10,
+  "fundraisingTargetZAR": 2000000,
+  "halvingYears": 8,
+  "annualReserveBurnRate": 0.05,
+  "commercialBurnRate": 0.02,
+  "maximumProfitBurnRate": 0.05,
+  "founderVestingYears": 5,
+  "minimumAge": 18,
+  "allocations": {
+    "mining": 350000,
+    "presale": 200000,
+    "burn": 150000,
+    "liquidity": 100000,
+    "ecosystem": 100000,
+    "founder": 50000,
+    "partnerships": 50000
+  }
+}
