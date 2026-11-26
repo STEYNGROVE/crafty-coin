@@ -1,0 +1,37 @@
+{
+  "name": "CRAFTY INFINITY",
+  "mode": "SIMULATION_ONLY",
+  "slogan": "Stay Crafty. Think Infinite.",
+  "productionReadiness": "NO_GO",
+  "connectedLocalEngines": [
+    "privacy",
+    "family",
+    "marketplace",
+    "integrations"
+  ],
+  "standaloneModules": [
+    "core",
+    "brand",
+    "ai",
+    "education",
+    "squad",
+    "virtual-life",
+    "language",
+    "treasury",
+    "mining",
+    "scarcity",
+    "commerce",
+    "marketing"
+  ],
+  "supportedLanguages": [
+    "en",
+    "af",
+    "st",
+    "zu"
+  ],
+  "realAccountsEnabled": false,
+  "mainnetEnabled": false,
+  "realPaymentsEnabled": false,
+  "childLiveAIEnabled": false,
+  "externalConnectionsEnabled": false
+}

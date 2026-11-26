@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+ content="width=device-width,initial-scale=1">
+<title>Crafty Infinity</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#101528;color:white;
+ font:16px system-ui,sans-serif
+}
+main{max-width:900px;margin:auto;padding:24px}
+h1{font-size:clamp(32px,8vw,64px);margin-bottom:4px}
+small{color:#b7c6e7}
+.panel{
+ background:#1c2540;border:1px solid #36456a;
+ border-radius:20px;padding:22px;margin:16px 0
+}
+.grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+ gap:12px
+}
+.tile{
+ background:#243354;border-radius:14px;padding:16px
+}
+.number{font-size:30px;color:#79baff;font-weight:bold}
+.notice{
+ border-left:4px solid #ffd43b;padding:14px;
+ background:#252c3c
+}
+h2{color:#8fc7ff}
+button{
+ background:#1677ff;color:white;border:0;
+ border-radius:12px;padding:12px 18px;
+ font-size:16px;cursor:pointer
+}
+</style>
+</head>
+<body>
+<main>
+<small>CRAFTY TECHNOLOGY ECOSYSTEM</small>
+<h1>CRAFTY INFINITY</h1>
+<p>Stay Crafty. Think Infinite.</p>
+<p class="notice">
+ Development preview. Simulation only.
+ No real accounts, payments or token transfers.
+</p>
+<section class="panel">
+<h2>University of Life</h2>
+<div class="grid">
+<div class="tile"><div class="number">22</div>Academies</div>
+<div class="tile"><div class="number">12</div>Superheroes</div>
+<div class="tile"><div class="number">12</div>Virtual worlds</div>
+<div class="tile"><div class="number">138</div>Activities</div>
+</div>
+<p>Learning, creativity and real-world skills.</p>
+</section>
+<section class="panel">
+<h2>Family and School</h2>
+<p>Parent oversight, teacher permissions,
+ learning progress and consent management.</p>
+</section>
+<section class="panel">
+<h2>Adult Commercial Ecosystem</h2>
+<div class="grid">
+<div class="tile">PIXELPUNK</div>
+<div class="tile">GPU Compute</div>
+<div class="tile">Ghostmedia</div>
+<div class="tile">Crafty Business</div>
+<div class="tile">Marketplace</div>
+<div class="tile">Adult Academy</div>
+<div class="tile">Crafty Infinity</div>
+</div>
+</section>
+<section class="panel">
+<h2>Platform Registry</h2>
+<div id="registry">Loading local registry...</div>
+</section>
+<small>
+ Static local preview. No authentication
+ or commercial actions are available here.
+</small>
+</main>
+<script>
+fetch("registry.json")
+.then(r=>{
+ if(!r.ok)throw Error("Unavailable");
+ return r.json();
+})
+.then(data=>{
+ const root=document.getElementById("registry");
+ root.textContent="";
+ for(const name of data.connectedLocalEngines){
+  const p=document.createElement("p");
+  p.textContent=name+" — local orchestration";
+  root.appendChild(p);
+ }
+ const p=document.createElement("p");
+ p.textContent="Production: "+data.productionReadiness;
+ root.appendChild(p);
+})
+.catch(()=>{
+ document.getElementById("registry").textContent=
+ "Registry unavailable.";
+});
+</script>
+</body>
+</html>

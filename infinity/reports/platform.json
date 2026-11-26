@@ -1,0 +1,16 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "connectedLocalEngines": 4,
+  "integrationTestsPassed": 24,
+  "syntheticOrderLifecycles": 100,
+  "childCommercialAttemptsDenied": 100,
+  "sessionBoundIdentity": true,
+  "localDashboardInstalled": true,
+  "browserDashboardVerified": false,
+  "realAccounts": 0,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "externalServiceConnections": 0,
+  "productionReadiness": "NO_GO"
+}
