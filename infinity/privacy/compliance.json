@@ -1,0 +1,56 @@
+{
+  "jurisdiction": "South Africa",
+  "mode": "READINESS_ASSESSMENT",
+  "legalApproval": false,
+  "independentSecurityAudit": false,
+  "requirements": [
+    {
+      "area": "POPIA lawful processing",
+      "status": "LEGAL_REVIEW_REQUIRED"
+    },
+    {
+      "area": "Children's personal information",
+      "status": "COMPETENT_PERSON_CONSENT_REVIEW_REQUIRED"
+    },
+    {
+      "area": "Information Officer obligations",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "area": "Data retention and deletion",
+      "status": "PARTIAL_SIMULATION"
+    },
+    {
+      "area": "Security incident response",
+      "status": "OPERATIONAL_PLAN_REQUIRED"
+    },
+    {
+      "area": "Consumer protection and subscriptions",
+      "status": "LEGAL_REVIEW_REQUIRED"
+    },
+    {
+      "area": "Financial services and crypto regulation",
+      "status": "SPECIALIST_REVIEW_REQUIRED"
+    },
+    {
+      "area": "Tax and accounting",
+      "status": "PROFESSIONAL_REVIEW_REQUIRED"
+    },
+    {
+      "area": "Payment provider compliance",
+      "status": "NOT_ACTIVATED"
+    },
+    {
+      "area": "Independent penetration testing",
+      "status": "NOT_COMPLETED"
+    },
+    {
+      "area": "Cross-border data processing",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "area": "Production access control",
+      "status": "SIMULATION_ONLY"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "passwordAlgorithm": "PBKDF2-HMAC-SHA256",
+  "passwordIterations": 600000,
+  "minimumPasswordLength": 12,
+  "sessionLifetimeSeconds": 1800,
+  "maximumFailedAttempts": 5,
+  "lockoutSeconds": 300,
+  "realAccountsEnabled": false,
+  "childFinancialAccess": false,
+  "crossDomainDataSharing": false,
+  "externalDataSharing": false,
+  "biometricCollection": false,
+  "behaviouralAdvertising": false,
+  "financialActivation": false
+}

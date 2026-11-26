@@ -1,0 +1,18 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "securityTestsPassed": 36,
+  "crossDomainAttemptsDenied": 1000,
+  "securityEventsVerified": 1004,
+  "passwordHashing": "PBKDF2-HMAC-SHA256",
+  "passwordIterations": 600000,
+  "sessionExpiry": true,
+  "sessionRevocation": true,
+  "localEventChainVerified": true,
+  "externalAuditAnchor": false,
+  "realAccounts": 0,
+  "actualExpenditureZAR": 0,
+  "legalApproval": false,
+  "independentSecurityAudit": false,
+  "productionReadiness": "NO_GO"
+}
