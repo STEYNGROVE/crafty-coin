@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "mode": "SIMULATION_ONLY",
+  "financialTestsPassed": 36,
+  "profitStressScenarios": 1000,
+  "liquidityStressScenarios": 1000,
+  "nonPositiveProfitScenarios": 409,
+  "liquidityShortfallScenarios": 612,
+  "presaleScenarios": [
+    {
+      "mode": "SIMULATION_ONLY",
+      "requestedTokens": 0,
+      "hypotheticalGrossZAR": 0,
+      "actualFundsZAR": 0,
+      "reservedTokens": 0,
+      "allocatedTokens": 0,
+      "guaranteedReturns": false
+    },
+    {
+      "mode": "SIMULATION_ONLY",
+      "requestedTokens": 10000,
+      "hypotheticalGrossZAR": 100000,
+      "actualFundsZAR": 0,
+      "reservedTokens": 0,
+      "allocatedTokens": 0,
+      "guaranteedReturns": false
+    },
+    {
+      "mode": "SIMULATION_ONLY",
+      "requestedTokens": 50000,
+      "hypotheticalGrossZAR": 500000,
+      "actualFundsZAR": 0,
+      "reservedTokens": 0,
+      "allocatedTokens": 0,
+      "guaranteedReturns": false
+    },
+    {
+      "mode": "SIMULATION_ONLY",
+      "requestedTokens": 100000,
+      "hypotheticalGrossZAR": 1000000,
+      "actualFundsZAR": 0,
+      "reservedTokens": 0,
+      "allocatedTokens": 0,
+      "guaranteedReturns": false
+    },
+    {
+      "mode": "SIMULATION_ONLY",
+      "requestedTokens": 200000,
+      "hypotheticalGrossZAR": 2000000,
+      "actualFundsZAR": 0,
+      "reservedTokens": 0,
+      "allocatedTokens": 0,
+      "guaranteedReturns": false
+    }
+  ],
+  "readiness": {
+    "mode": "SIMULATION_ONLY",
+    "productionReadiness": "NO_GO",
+    "approvals": {
+      "LEGAL": "PENDING",
+      "BANKING": "PENDING",
+      "ESCROW": "PENDING",
+      "SECURITY": "PENDING",
+      "TAX": "PENDING",
+      "TOKEN_CLASSIFICATION": "PENDING",
+      "CUSTODY": "PENDING",
+      "INDEPENDENT_AUDIT": "PENDING",
+      "OWNER_AUTHORIZATION": "PENDING"
+    },
+    "actualFundsZAR": 0,
+    "actualExpenditureZAR": 0,
+    "mainnetEnabled": false
+  },
+  "actualFundsCollectedZAR": 0,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

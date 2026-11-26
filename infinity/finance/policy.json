@@ -1,0 +1,25 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "currency": "ZAR",
+  "minimumAge": 18,
+  "mainnetEnabled": false,
+  "realPaymentsEnabled": false,
+  "presaleEnabled": false,
+  "withdrawalsEnabled": false,
+  "tokenTransfersEnabled": false,
+  "automaticBuybacksEnabled": false,
+  "automaticBurnsEnabled": false,
+  "childFinancialAccess": false,
+  "guaranteedReturns": false,
+  "requiredApprovals": [
+    "LEGAL",
+    "BANKING",
+    "ESCROW",
+    "SECURITY",
+    "TAX",
+    "TOKEN_CLASSIFICATION",
+    "CUSTODY",
+    "INDEPENDENT_AUDIT",
+    "OWNER_AUTHORIZATION"
+  ]
+}
