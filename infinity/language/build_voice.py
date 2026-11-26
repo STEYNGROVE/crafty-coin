@@ -26,10 +26,19 @@ missing=[]
 
 for lang,messages in catalogue.items():
 
-    if lang not in available:
+    candidates=sorted(
+        v for v in available
+        if v==lang or v.startswith(lang+"-")
+    )
+
+    if not candidates:
         missing.append(lang)
         print("UNAVAILABLE:",lang)
         continue
+
+    voice=lang if lang in candidates else candidates[0]
+
+    print("SELECTED VOICE:",lang,voice)
 
     directory=root/"audio"/lang
     directory.mkdir(parents=True,exist_ok=True)
@@ -46,7 +55,7 @@ for lang,messages in catalogue.items():
 
             subprocess.run([
                 "espeak-ng",
-                "-v",lang,
+                "-v",voice,
                 "-s","145",
                 "-p","58",
                 "-w",str(wav),

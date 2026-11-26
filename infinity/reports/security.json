@@ -62,7 +62,7 @@
     "Basic sensitive file screening",
     "SHA-256 manifest generated"
   ],
-  "manifestFiles": 109,
+  "manifestFiles": 121,
   "actualFundsCollectedZAR": 0,
   "authorizedExpenditureZAR": 0,
   "productionReadiness": "NO_GO",
