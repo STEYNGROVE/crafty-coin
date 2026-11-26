@@ -1,0 +1,20 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "status": "PASS",
+  "marketplaceTestsPassed": 36,
+  "products": 12,
+  "syntheticCustomers": 100,
+  "syntheticOrders": 1200,
+  "simulatedActivations": 1200,
+  "cancelledOrders": 240,
+  "activeSyntheticEntitlements": 960,
+  "hypotheticalOrderValueCents": 55912000,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "actualPayments": 0,
+  "actualTokenTransfers": 0,
+  "realCustomers": 0,
+  "childPurchases": false,
+  "automaticRenewals": false,
+  "productionReadiness": "NO_GO"
+}

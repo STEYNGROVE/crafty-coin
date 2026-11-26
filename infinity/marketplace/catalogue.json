@@ -1,0 +1,72 @@
+{
+  "mode": "SIMULATION_ONLY",
+  "currency": "ZAR",
+  "pricesAreIllustrative": true,
+  "realPaymentsEnabled": false,
+  "automaticRenewalsEnabled": false,
+  "tokenPaymentsEnabled": false,
+  "childPurchasesEnabled": false,
+  "externalSettlementEnabled": false,
+  "products": [
+    {
+      "id": "BUSINESS_BASIC",
+      "type": "SUBSCRIPTION",
+      "priceCents": 9900
+    },
+    {
+      "id": "BUSINESS_PRO",
+      "type": "SUBSCRIPTION",
+      "priceCents": 29900
+    },
+    {
+      "id": "BUSINESS_ENTERPRISE",
+      "type": "SUBSCRIPTION",
+      "priceCents": 99900
+    },
+    {
+      "id": "PIXELPUNK_WEBSITE",
+      "type": "SERVICE",
+      "priceCents": 150000
+    },
+    {
+      "id": "PIXELPUNK_MAINTENANCE",
+      "type": "SUBSCRIPTION",
+      "priceCents": 29900
+    },
+    {
+      "id": "GPU_COMPUTE_PACKAGE",
+      "type": "SERVICE",
+      "priceCents": 49900
+    },
+    {
+      "id": "GHOSTMEDIA_PACKAGE",
+      "type": "SERVICE",
+      "priceCents": 49900
+    },
+    {
+      "id": "CREATOR_PRO",
+      "type": "SUBSCRIPTION",
+      "priceCents": 14900
+    },
+    {
+      "id": "ADULT_ACADEMY",
+      "type": "SUBSCRIPTION",
+      "priceCents": 9900
+    },
+    {
+      "id": "DIGITAL_ASSET",
+      "type": "PRODUCT",
+      "priceCents": 4900
+    },
+    {
+      "id": "SOFTWARE_LICENSE",
+      "type": "LICENSE",
+      "priceCents": 49900
+    },
+    {
+      "id": "INSTITUTION_LICENSE",
+      "type": "LICENSE",
+      "priceCents": 199900
+    }
+  ]
+}
