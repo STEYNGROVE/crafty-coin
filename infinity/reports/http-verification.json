@@ -1,0 +1,20 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "mode": "LOCAL_SYNTHETIC",
+  "httpTestsPassed": 24,
+  "httpRuntimeVerified": true,
+  "loopbackOnly": true,
+  "originValidationTested": true,
+  "hostValidationTested": true,
+  "sessionTokenValidationTested": true,
+  "requestSizeValidationTested": true,
+  "agePathwayValidationTested": true,
+  "originalArtworkDeliveryTested": true,
+  "productionAuthentication": false,
+  "browserRuntimeVerified": false,
+  "realAccountsEnabled": false,
+  "financialOperationsEnabled": false,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}
