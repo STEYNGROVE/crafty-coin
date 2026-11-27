@@ -1,8 +1,8 @@
 {
   "mode": "SIMULATION_ONLY",
   "status": "PASS",
-  "suites": 24,
-  "testsPassed": 554,
+  "suites": 25,
+  "testsPassed": 572,
   "results": [
     {
       "suite": "engine/presale.py",
@@ -122,6 +122,11 @@
     {
       "suite": "x/intelligence/test_intelligence.py",
       "tests": 14,
+      "status": "PASS"
+    },
+    {
+      "suite": "x/commercial/test_pixelpunk.py",
+      "tests": 18,
       "status": "PASS"
     }
   ],

@@ -1,0 +1,28 @@
+{
+  "phase": 36,
+  "provider": "PIXELPUNK",
+  "mode": "READ_ONLY_AND_LOCAL_DRAFT",
+  "status": "PASS",
+  "websites": {
+    "github_pages": {
+      "url": "https://steyngrove.github.io/pixelpunk/",
+      "httpStatus": 200,
+      "reachable": true,
+      "brandMarkerPresent": true
+    },
+    "cloudflare_pages": {
+      "url": "https://pixelpunk.pages.dev/",
+      "httpStatus": 200,
+      "reachable": true,
+      "brandMarkerPresent": true
+    }
+  },
+  "verifiedWebsites": 2,
+  "registeredServices": 8,
+  "liveCustomerSubmissions": 0,
+  "automaticPublishing": false,
+  "childDataAccess": false,
+  "realPaymentsEnabled": false,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}
