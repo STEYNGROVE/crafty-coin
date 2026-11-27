@@ -1,0 +1,15 @@
+{
+  "phase": 40,
+  "status": "PASS",
+  "mode": "LOCAL_REPORT_AGGREGATION",
+  "intelligenceTestsPassed": 30,
+  "reportSources": 5,
+  "regressionTests": 678,
+  "dashboardGenerated": true,
+  "browserRuntimeVerified": false,
+  "liveMonitoringEnabled": false,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "financialOperationsEnabled": false,
+  "productionReadiness": "NO_GO"
+}

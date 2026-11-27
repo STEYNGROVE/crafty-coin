@@ -1,0 +1,43 @@
+{
+  "mode": "LOCAL_REPORT_AGGREGATION",
+  "generatedAt": "2026-11-27T05:21:43.074665+00:00",
+  "services": [
+    {
+      "service": "PIXELPUNK",
+      "checkpoint": "PASS",
+      "currentLiveHealthVerified": false,
+      "source": "pixelpunk.json"
+    },
+    {
+      "service": "GPU_COMPUTE",
+      "checkpoint": "PASS",
+      "currentLiveHealthVerified": false,
+      "source": "gpu-connector.json"
+    },
+    {
+      "service": "GHOSTMEDIA",
+      "checkpoint": "PASS",
+      "currentLiveHealthVerified": false,
+      "source": "ghostmedia-connector.json"
+    },
+    {
+      "service": "GROQ",
+      "checkpoint": "PASS",
+      "currentLiveHealthVerified": false,
+      "source": "groq-provider.json"
+    },
+    {
+      "service": "SUBSCRIPTIONS",
+      "checkpoint": "PASS",
+      "currentLiveHealthVerified": false,
+      "source": "subscriptions.json"
+    }
+  ],
+  "regressionTests": 678,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "financialOperationsEnabled": false,
+  "liveMonitoringEnabled": false,
+  "childDataIncluded": false,
+  "productionReadiness": "NO_GO"
+}
