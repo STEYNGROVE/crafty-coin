@@ -1,0 +1,14 @@
+{
+  "phase": 33,
+  "status": "STATIC_VALIDATION_PASS",
+  "mode": "LOCAL_SYNTHETIC",
+  "androidManifest": true,
+  "iconAssets": 3,
+  "offlineCatalogueActivities": 138,
+  "offlineProgressRecording": false,
+  "privateApiCaching": false,
+  "browserInstallationVerified": false,
+  "offlineRuntimeVerified": false,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

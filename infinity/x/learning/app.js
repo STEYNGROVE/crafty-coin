@@ -234,27 +234,13 @@ async function start(){
   ));
  };
 
+
  if("serviceWorker" in navigator){
-
-  const registration=
-   await navigator.serviceWorker.getRegistration();
-
-  if(registration){
-   await registration.unregister();
-  }
-
-  if("caches" in window){
-   for(const key of await caches.keys()){
-    if(key.startsWith("crafty-learning-")){
-     await caches.delete(key);
-    }
-   }
-  }
-
-  if(navigator.serviceWorker.controller){
-   location.reload();
-   return;
-  }
+  navigator.serviceWorker.register("./sw.js")
+   .catch(()=>{
+    $("status").textContent=
+     "Offline installation unavailable.";
+   });
  }
 
  await refresh();

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+ content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101528">
+<title>Crafty Offline Academy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<img src="icons/crafty-192.png"
+ width="120" height="120" alt="Crafty">
+<h1>Crafty's Offline Academy</h1>
+<p>Keep learning even when the local server is unavailable.</p>
+</header>
+<p>Offline activities are read-only.
+Progress is not recorded in this mode.</p>
+<label for="offline-pathway">Learning pathway</label>
+<select id="offline-pathway">
+<option value="DISCOVER">Discover: ages 4–7</option>
+<option value="EXPLORER">Explorer: ages 8–12</option>
+<option value="FUTURE">Future: ages 13–17</option>
+</select>
+<label for="offline-module">Learning world</label>
+<select id="offline-module">
+<option value="academies">Academies</option>
+<option value="superheroes">Superhero Squad</option>
+<option value="worlds">Virtual Life</option>
+</select>
+<p id="offline-status" role="status"></p>
+<section id="offline-activities" class="grid"></section>
+<p><a href="index.html">Return to connected learning</a></p>
+</main>
+<script src="offline.js"></script>
+</body>
+</html>

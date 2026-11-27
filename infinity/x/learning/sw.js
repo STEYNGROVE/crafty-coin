@@ -1,51 +1,75 @@
 "use strict";
 
-const CACHE="crafty-learning-v2";
+const CACHE="crafty-learning-v3";
+
 const FILES=[
- "./assets/crafty-master.webp",
  "./index.html",
  "./style.css",
  "./app.js",
  "./data.json",
- "./manifest.json"
+ "./manifest.json",
+ "./offline.html",
+ "./offline.js",
+ "./assets/crafty-master.webp",
+ "./icons/crafty-192.png",
+ "./icons/crafty-512.png",
+ "./icons/crafty-maskable.png"
 ];
+
+const ALLOWED=new Set(
+ FILES.map(file=>new URL(
+  file,self.registration.scope
+ ).href)
+);
 
 self.addEventListener("install",event=>{
  event.waitUntil(
-  caches.open(CACHE).then(
-   cache=>cache.addAll(FILES)
-  )
+  caches.open(CACHE)
+   .then(cache=>cache.addAll(FILES))
+   .then(()=>self.skipWaiting())
  );
 });
 
 self.addEventListener("activate",event=>{
  event.waitUntil(
-  caches.keys().then(keys=>Promise.all(
-   keys.filter(
-    key=>key.startsWith("crafty-learning-")
-    &&key!==CACHE
-   ).map(key=>caches.delete(key))
-  ))
+  caches.keys()
+   .then(keys=>Promise.all(
+    keys.filter(key=>
+     key.startsWith("crafty-learning-") &&
+     key!==CACHE
+    ).map(key=>caches.delete(key))
+   ))
+   .then(()=>self.clients.claim())
  );
 });
 
 self.addEventListener("fetch",event=>{
- const url=new URL(event.request.url);
 
- if(event.request.method!=="GET")return;
+ const request=event.request;
+ const url=new URL(request.url);
+
+ if(request.method!=="GET")return;
+
  if(url.origin!==self.location.origin)return;
 
- const allowed=FILES.some(
-  file=>new URL(
-   file,self.registration.scope
-  ).href===url.href
- );
+ // Never cache private API responses.
+ if(url.pathname.startsWith("/api/"))return;
 
- if(!allowed)return;
+ if(request.mode==="navigate"){
+
+  event.respondWith(
+   fetch(request).catch(()=>
+    caches.match("./offline.html")
+   )
+  );
+
+  return;
+ }
+
+ if(!ALLOWED.has(url.href))return;
 
  event.respondWith(
-  caches.match(event.request).then(
-   cached=>cached||fetch(event.request)
-  )
+  caches.match(request)
+   .then(cached=>cached||fetch(request))
  );
 });
