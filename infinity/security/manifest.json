@@ -110,7 +110,7 @@
   "reports/education.json": "100de412c3e6645773318082f6a2cfab5d18a1b3dcfb20f839b0dbc13417fff8",
   "reports/family.json": "154605e664f28800d12b8361147b5da1e0bb14801754e4cbd7f4407c68a9370d",
   "reports/finance.json": "876b46a8c72ca13753254a887667e8502d381103e7f790396a34e19c39ab5066",
-  "reports/full-regression.json": "d8517fda6774fe9acbe18482a575ccf2e543cfaf3916e6068f4791cd8a1bcf5a",
+  "reports/full-regression.json": "5c38c4e8a9c636983feb39b987f8bef8f8698aed107761914d70e20dd736ce8c",
   "reports/ghostmedia-connector.json": "3e60d4a1a248fdd3a7045b26792dfbd671576a9b0096bb316d37a183e8f2fe72",
   "reports/gpu-connector.json": "762c00d67e7c339e0601e95ae90339caaaeaab04ff3f78d4826e8333d931c26b",
   "reports/groq-provider.json": "d5852e19c85b71b72cdc591a6cbdf48c546bc0388a9532a5d281d31052e304bf",
@@ -129,6 +129,7 @@
   "reports/privacy.json": "98a62aafd818782a72674b775afb8a3257a7bea4f3edab918e5599731fa1767e",
   "reports/pwa.json": "1006c0765fe40ec9c67382f9678625c2d016043c89f18ee21b1c109279c47181",
   "reports/scarcity.json": "37549cc35c4e4a7e0be4d087039386545acae9221ea9a5be6505affb1831c0ce",
+  "reports/security-foundation.json": "841ff86e7b04da026e0820f4de1d7b5b244869a68f730af8849475e4136622bf",
   "reports/simulation.json": "ff8b901bb78bf9d8a7c2f174b62937ee26427ada15840cea8f642d9dda52a858",
   "reports/squad.json": "6f5f02c9c83aed77e970204008584da3cd410fe6afc0b7d39b52d44f5df77213",
   "reports/subscriptions.json": "8a46a869b0ade9dc74d6dd1408d35007de1cee232ff1027149f5beb4be396438",
@@ -226,6 +227,9 @@
   "x/learning/voice.js": "3440d96cc631e790971ce2a823c28b0494bee6a969015528e0956ff690c568bd",
   "x/recovery/engine.py": "4afcd3c32f458b02288e555c0e594abb2281163fac109d6ecd6b949ed4d1ce89",
   "x/recovery/test_recovery.py": "64f057e5ad0fec04728a45bb4f9acad913df15af4af8fbc272fe24051a6a00da",
+  "x/security/guard.py": "bc2a55e1132bc3089d850033b6834f769b6d2688092abadbda2479566f4c54de",
+  "x/security/policy.json": "70f0db0d83ac5bef0e571f973514e341854e25d72254ccadfb25157fad977967",
+  "x/security/test_guard.py": "f55946155f1dc39441b41bf5ce61bf051205a3a529e142d41c4f5b9372019cd0",
   "x/subscriptions/engine.py": "b2c13fbdf667f69f79e184886e3f6ffce16f43b8c063bca7c6c03bdd76ac6808",
   "x/subscriptions/test_subscriptions.py": "57a609060f5d858fee0099747b764aa12de1e5afd88e549f45424e7905b0709d"
 }

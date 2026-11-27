@@ -1,0 +1,19 @@
+{
+  "mode": "LOCAL_SYNTHETIC",
+  "sessionLifetimeSeconds": 1800,
+  "maximumSessions": 1000,
+  "maximumRequestsPerWindow": 60,
+  "requestWindowSeconds": 60,
+  "maximumRequestBytes": 4096,
+  "maximumReplayRecords": 10000,
+  "providers": {
+    "GROQ": false,
+    "PIXELPUNK": false,
+    "GPU_COMPUTE": false,
+    "GHOSTMEDIA": false
+  },
+  "realAccountsEnabled": false,
+  "financialOperationsEnabled": false,
+  "childDataExportEnabled": false,
+  "crossDomainAccessEnabled": false
+}
