@@ -1,0 +1,26 @@
+{
+  "phase": 34,
+  "status": "STATIC_VALIDATION_PASS",
+  "bundledVoiceAssets": 24,
+  "bundledLanguages": [
+    "en",
+    "af"
+  ],
+  "textLanguages": [
+    "en",
+    "af",
+    "st",
+    "zu"
+  ],
+  "deviceVoiceFallback": true,
+  "speechSpeedControl": true,
+  "readingSizeControl": true,
+  "reducedMotionControl": true,
+  "microphoneRecording": false,
+  "cloudSpeechEnabled": false,
+  "actualPlaybackVerified": false,
+  "offlineRuntimeVerified": false,
+  "nativeSpeakerReview": "PENDING",
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

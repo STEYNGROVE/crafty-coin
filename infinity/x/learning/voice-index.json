@@ -1,0 +1,98 @@
+{
+  "en:welcome": {
+    "file": "voice/en-welcome.mp3",
+    "sha256": "0c4484bfb9ba0bd173e8f9a8f844533a9c45eb412a4261522aa4db1d9380926a"
+  },
+  "en:start": {
+    "file": "voice/en-start.mp3",
+    "sha256": "7b2035f00ebcb56d19a83c3848dd0a550fdb9f37c9575e5c8620bd468fb413e2"
+  },
+  "en:continue": {
+    "file": "voice/en-continue.mp3",
+    "sha256": "40044997581c58cf9cf8c175c23b1bbe90a9fb27fa092638367fc6da4978616e"
+  },
+  "en:help": {
+    "file": "voice/en-help.mp3",
+    "sha256": "a0173ec2c2ef0e16241825f64f0fc18449fbd8d335d0c0b340c2324287357a0c"
+  },
+  "en:reflect": {
+    "file": "voice/en-reflect.mp3",
+    "sha256": "c5e6b6f946e4cfaa3038c57fd2bb6b67f2690352cf6823ac0d17919db4791fb0"
+  },
+  "en:complete": {
+    "file": "voice/en-complete.mp3",
+    "sha256": "055bb68b69d76553315969faffcb93a5eab5e82645ce35852351dcfc7e1134bf"
+  },
+  "en:rest": {
+    "file": "voice/en-rest.mp3",
+    "sha256": "f72da237e2f04cffe6ffa13f773e6f7bbe8a654a5394a82e525cc0d5cd31855d"
+  },
+  "en:retry": {
+    "file": "voice/en-retry.mp3",
+    "sha256": "48c34689c92d362581257f1374d07c2230f654d329c7b8c52367ff8cf9901f6f"
+  },
+  "en:choose": {
+    "file": "voice/en-choose.mp3",
+    "sha256": "e4563ce39215ebf2b1aa8063c8501a4d0b3792f7914d32020b3fe0ae99406d8f"
+  },
+  "en:listen": {
+    "file": "voice/en-listen.mp3",
+    "sha256": "e12c40f6ad55d49e1cae946c4c38cd7efe3aa3b305f192f772b1b0c765fc5369"
+  },
+  "en:privacy": {
+    "file": "voice/en-privacy.mp3",
+    "sha256": "4952ffff7d400744069ede026e2f67071ab0d17a9925d69e1af20f67bb7a5a27"
+  },
+  "en:stop": {
+    "file": "voice/en-stop.mp3",
+    "sha256": "10a9d2c076532cda88b9ec11350d92f7177fe67b223df2321ba5125df8c70842"
+  },
+  "af:welcome": {
+    "file": "voice/af-welcome.mp3",
+    "sha256": "f5d64a777b6c674cc563b8c9c7352094cb45be06a4e9d04c5af82895d202def9"
+  },
+  "af:start": {
+    "file": "voice/af-start.mp3",
+    "sha256": "32e45ea511111977fcf41e0be8dcc3f902d768e3f4e8dfa97e2a3d8411c54785"
+  },
+  "af:continue": {
+    "file": "voice/af-continue.mp3",
+    "sha256": "26c0c2e11df07bf8e00fff527b1764c7c4a1e7a3f00eaee8a87aaac0030e5fce"
+  },
+  "af:help": {
+    "file": "voice/af-help.mp3",
+    "sha256": "90ec61c40d502a7c1e1772d2089ebcf91dba00c930959dae2f18bb7d000b801c"
+  },
+  "af:reflect": {
+    "file": "voice/af-reflect.mp3",
+    "sha256": "f8159e85f4124d4decacf8f457752d308e23e009f32048211da590ff9052eff3"
+  },
+  "af:complete": {
+    "file": "voice/af-complete.mp3",
+    "sha256": "cbf653a734929e23a67478986590dc853136e555257162a5fdffd418886ddc49"
+  },
+  "af:rest": {
+    "file": "voice/af-rest.mp3",
+    "sha256": "e6ba15ca7480324198ab36a9f20ad7e40596cef418c1fc74ebd17c4bc4c86913"
+  },
+  "af:retry": {
+    "file": "voice/af-retry.mp3",
+    "sha256": "262fffe0736e53ceb91c76fea88bac4f4ae7f62aedeba375aeac3e005cb34282"
+  },
+  "af:choose": {
+    "file": "voice/af-choose.mp3",
+    "sha256": "b190d9e5a6a27661cc5622978621b20d1c3437a202f9113d78c2d6c878ce0718"
+  },
+  "af:listen": {
+    "file": "voice/af-listen.mp3",
+    "sha256": "0b0505485a80855e4e7ca633db42c96e33d8b35ce166435e352de33a642a51be"
+  },
+  "af:privacy": {
+    "file": "voice/af-privacy.mp3",
+    "sha256": "bb3ab81b1d6c419f4b6df4f075789c37980d107c798bf823b221ff6c12b5f5bb"
+  },
+  "af:stop": {
+    "file": "voice/af-stop.mp3",
+    "sha256": "d08e1b3995449b3a75ebbf8e0e2d8bf3ad16ddc4df66d4c2f723eba626b950e1"
+  }
+}

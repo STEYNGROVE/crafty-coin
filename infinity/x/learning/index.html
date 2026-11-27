@@ -21,6 +21,48 @@
 <h1>University of Life</h1>
 <p id="welcome">Welcome to Crafty's world.</p>
 </header>
+<section id="crafty-accessibility">
+<h2>Crafty's Voice</h2>
+<p>Learn, listen and explain in your own words.</p>
+
+<label for="crafty-speed">Speech speed</label>
+<select id="crafty-speed">
+<option value="0.8">Slow</option>
+<option value="1" selected>Normal</option>
+<option value="1.2">Fast</option>
+</select>
+
+<label for="crafty-size">Reading size</label>
+<select id="crafty-size">
+<option value="100">Standard</option>
+<option value="115">Large</option>
+<option value="130">Extra large</option>
+</select>
+
+<label>
+<input type="checkbox" id="crafty-motion">
+Reduce motion
+</label>
+
+<button id="crafty-speak" type="button">
+Listen to Crafty
+</button>
+
+<button id="crafty-recall" type="button">
+Verbal recall
+</button>
+
+<button id="crafty-stop" type="button">
+Stop voice
+</button>
+
+<p id="crafty-voice-status" role="status"></p>
+
+<audio id="crafty-audio" preload="none"></audio>
+
+<p>No microphone recording. No cloud speech.</p>
+</section>
+
 
 <section class="panel">
 <label for="pathway">Learning pathway</label>
@@ -81,5 +123,6 @@ Development edition · Introductory activities
  awaiting educational review.
 </footer>
 <p><a id="offline-link" href="offline.html">Explore offline learning</a></p>\n</main>
+<script src="voice.js"></script>
 </body>
 </html>

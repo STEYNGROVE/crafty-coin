@@ -1,8 +1,35 @@
 "use strict";
 
-const CACHE="crafty-learning-v3";
+const CACHE="crafty-learning-v4";
 
 const FILES=[
+ "./voice/af-stop.mp3",
+ "./voice/af-privacy.mp3",
+ "./voice/af-listen.mp3",
+ "./voice/af-choose.mp3",
+ "./voice/af-retry.mp3",
+ "./voice/af-rest.mp3",
+ "./voice/af-complete.mp3",
+ "./voice/af-reflect.mp3",
+ "./voice/af-help.mp3",
+ "./voice/af-continue.mp3",
+ "./voice/af-start.mp3",
+ "./voice/af-welcome.mp3",
+ "./voice/en-stop.mp3",
+ "./voice/en-privacy.mp3",
+ "./voice/en-listen.mp3",
+ "./voice/en-choose.mp3",
+ "./voice/en-retry.mp3",
+ "./voice/en-rest.mp3",
+ "./voice/en-complete.mp3",
+ "./voice/en-reflect.mp3",
+ "./voice/en-help.mp3",
+ "./voice/en-continue.mp3",
+ "./voice/en-start.mp3",
+ "./voice/en-welcome.mp3",
+ "./voice-text.json",
+ "./voice-index.json",
+ "./voice.js",
  "./index.html",
  "./style.css",
  "./app.js",
