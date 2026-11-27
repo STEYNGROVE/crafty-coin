@@ -1,0 +1,14 @@
+{
+  "phase": 39,
+  "status": "PASS",
+  "mode": "SIMULATION_ONLY",
+  "subscriptionProducts": 6,
+  "licenceProducts": 2,
+  "lifecycleTestsPassed": 30,
+  "persistentStorageTested": true,
+  "realPaymentsEnabled": false,
+  "liveRenewalsEnabled": false,
+  "actualRevenueZAR": 0,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

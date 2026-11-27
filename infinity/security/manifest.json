@@ -110,7 +110,7 @@
   "reports/education.json": "100de412c3e6645773318082f6a2cfab5d18a1b3dcfb20f839b0dbc13417fff8",
   "reports/family.json": "154605e664f28800d12b8361147b5da1e0bb14801754e4cbd7f4407c68a9370d",
   "reports/finance.json": "876b46a8c72ca13753254a887667e8502d381103e7f790396a34e19c39ab5066",
-  "reports/full-regression.json": "2aa81db2be948f2a8cf4759641e54a259f7623d4863e31a02abb12fb8308d1e4",
+  "reports/full-regression.json": "5c60e40462c6c4de94568cc541443aa509899f4169ca1a5c34ffc9b2f3115ced",
   "reports/ghostmedia-connector.json": "3e60d4a1a248fdd3a7045b26792dfbd671576a9b0096bb316d37a183e8f2fe72",
   "reports/gpu-connector.json": "762c00d67e7c339e0601e95ae90339caaaeaab04ff3f78d4826e8333d931c26b",
   "reports/groq-provider.json": "d5852e19c85b71b72cdc591a6cbdf48c546bc0388a9532a5d281d31052e304bf",
@@ -129,6 +129,7 @@
   "reports/scarcity.json": "37549cc35c4e4a7e0be4d087039386545acae9221ea9a5be6505affb1831c0ce",
   "reports/simulation.json": "ff8b901bb78bf9d8a7c2f174b62937ee26427ada15840cea8f642d9dda52a858",
   "reports/squad.json": "6f5f02c9c83aed77e970204008584da3cd410fe6afc0b7d39b52d44f5df77213",
+  "reports/subscriptions.json": "8a46a869b0ade9dc74d6dd1408d35007de1cee232ff1027149f5beb4be396438",
   "reports/treasury.json": "8ddebc661de55ebe658e7ed12dcb799e3dfe1a7318c6a135649ca77222521e55",
   "reports/virtual-life.json": "9e039b1905a3cd8ade04f96b62b58670fcbb03bd4fa87a44e86efd1f2b03f8f1",
   "reports/voice-integration.json": "7f808159ab5021c7a600f0a26415c6d2d07d21080e0dd7b94e2597f0ae707969",
@@ -216,5 +217,7 @@
   "x/learning/voice-text.json": "03e150fa4c986ca78c02dc55d708dbb86b302f4ae20a5b21e7a3579a4a243a53",
   "x/learning/voice.js": "3440d96cc631e790971ce2a823c28b0494bee6a969015528e0956ff690c568bd",
   "x/recovery/engine.py": "4afcd3c32f458b02288e555c0e594abb2281163fac109d6ecd6b949ed4d1ce89",
-  "x/recovery/test_recovery.py": "64f057e5ad0fec04728a45bb4f9acad913df15af4af8fbc272fe24051a6a00da"
+  "x/recovery/test_recovery.py": "64f057e5ad0fec04728a45bb4f9acad913df15af4af8fbc272fe24051a6a00da",
+  "x/subscriptions/engine.py": "b2c13fbdf667f69f79e184886e3f6ffce16f43b8c063bca7c6c03bdd76ac6808",
+  "x/subscriptions/test_subscriptions.py": "57a609060f5d858fee0099747b764aa12de1e5afd88e549f45424e7905b0709d"
 }

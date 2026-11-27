@@ -33,7 +33,8 @@ suites=[
     "x/intelligence/test_intelligence.py",
     "x/commercial/test_pixelpunk.py",
     "x/commercial/test_gpu.py",
-    "x/commercial/test_ghostmedia.py"
+    "x/commercial/test_ghostmedia.py",
+    "x/subscriptions/test_subscriptions.py"
 ]
 
 results=[]
@@ -78,7 +79,7 @@ for suite in suites:
 
     print(f"PASS: {suite}: {count} tests")
 
-assert total==618, f"Unexpected total: {total}"
+assert total==648, f"Unexpected total: {total}"
 
 report={
     "mode":"SIMULATION_ONLY",
