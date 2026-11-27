@@ -1,0 +1,80 @@
+{
+  "provider": "GROQ",
+  "mode": "DISCOVERY_ONLY",
+  "liveGenerationEnabled": false,
+  "childLiveAIEnabled": false,
+  "cloudSpeechEnabled": false,
+  "microphoneUploadEnabled": false,
+  "automaticFinancialActions": false,
+  "automaticPublishing": false,
+  "automaticPaidUpgrade": false,
+  "maximumAuthorizedExpenditureZAR": 0,
+  "roles": {
+    "ADVANCED_REASONING": {
+      "model": "openai/gpt-oss-120b",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "GENERAL_ASSISTANT": {
+      "model": "openai/gpt-oss-20b",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "TECHNICAL_ASSISTANT": {
+      "model": "qwen/qwen3.8-27b",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "CONTENT_SAFETY": {
+      "model": "openai/gpt-oss-safeguard-20b",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "PROMPT_SECURITY": {
+      "model": "meta-llama/llama-prompt-guard-2-86m",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "LIGHTWEIGHT_SECURITY": {
+      "model": "meta-llama/llama-prompt-guard-2-22m",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "TRANSCRIPTION": {
+      "model": "whisper-large-v3",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "FAST_TRANSCRIPTION": {
+      "model": "whisper-large-v3-turbo",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "ENGLISH_VOICE": {
+      "model": "canopylabs/orpheus-v1-english",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "ARABIC_VOICE": {
+      "model": "canopylabs/orpheus-arabic-saudi",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    },
+    "ARABIC_ASSISTANT": {
+      "model": "allam-2-7b",
+      "listedByProvider": true,
+      "capabilityVerified": false,
+      "enabled": false
+    }
+  }
+}
