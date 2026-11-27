@@ -1,0 +1,23 @@
+{
+  "phase": 37,
+  "provider": "GPU_COMPUTE_OS",
+  "mode": "READ_ONLY_AND_LOCAL_DRAFT",
+  "status": "PASS",
+  "deployment": "https://gpu-compute-arbitrage-os-and-connect-it.onrender.com",
+  "health": {
+    "reachable": true,
+    "httpStatus": 200,
+    "healthSchemaVerified": true,
+    "reportedStatus": "ok",
+    "productionReadinessVerified": false
+  },
+  "proposedServices": 8,
+  "independentApplication": true,
+  "ownerCredentialsRequired": false,
+  "liveServiceFulfilmentVerified": false,
+  "gpuPurchases": 0,
+  "workloadsStarted": 0,
+  "deploymentChanges": 0,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}
