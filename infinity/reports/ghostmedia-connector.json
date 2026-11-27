@@ -1,0 +1,23 @@
+{
+  "phase": 38,
+  "provider": "GHOSTMEDIA",
+  "mode": "READ_ONLY_AND_LOCAL_DRAFT",
+  "status": "PASS",
+  "deployment": "https://ghostmedia-production-worker-r9va.onrender.com",
+  "health": {
+    "reachable": true,
+    "httpStatus": 200,
+    "healthSchemaVerified": true,
+    "reportedStatus": "ok",
+    "productionReadinessVerified": false
+  },
+  "proposedServices": 8,
+  "independentApplication": true,
+  "liveMediaProductionVerified": false,
+  "credentialsSubmitted": false,
+  "videosGenerated": 0,
+  "videosPublished": 0,
+  "deploymentChanges": 0,
+  "actualExpenditureZAR": 0,
+  "productionReadiness": "NO_GO"
+}

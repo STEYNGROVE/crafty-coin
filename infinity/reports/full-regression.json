@@ -1,8 +1,8 @@
 {
   "mode": "SIMULATION_ONLY",
   "status": "PASS",
-  "suites": 26,
-  "testsPassed": 594,
+  "suites": 27,
+  "testsPassed": 618,
   "results": [
     {
       "suite": "engine/presale.py",
@@ -132,6 +132,11 @@
     {
       "suite": "x/commercial/test_gpu.py",
       "tests": 22,
+      "status": "PASS"
+    },
+    {
+      "suite": "x/commercial/test_ghostmedia.py",
+      "tests": 24,
       "status": "PASS"
     }
   ],
