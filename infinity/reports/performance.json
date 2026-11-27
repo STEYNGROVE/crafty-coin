@@ -1,0 +1,130 @@
+{
+  "phase": 41,
+  "status": "PASS",
+  "mode": "LOCAL_SYNTHETIC_BENCHMARK",
+  "benchmarkCategories": 10,
+  "benchmarkOperations": 7600,
+  "targetsPassed": 10,
+  "targetsTotal": 10,
+  "benchmarks": {
+    "education_catalogue": {
+      "operations": 1000,
+      "medianMs": 0.2142,
+      "p95Ms": 0.2449,
+      "maximumMs": 0.3898,
+      "targetMs": 10,
+      "status": "PASS"
+    },
+    "superhero_catalogue": {
+      "operations": 1000,
+      "medianMs": 0.208,
+      "p95Ms": 0.2395,
+      "maximumMs": 0.3718,
+      "targetMs": 10,
+      "status": "PASS"
+    },
+    "virtual_life_catalogue": {
+      "operations": 1000,
+      "medianMs": 0.2197,
+      "p95Ms": 0.2508,
+      "maximumMs": 0.3178,
+      "targetMs": 10,
+      "status": "PASS"
+    },
+    "gpu_local_drafts": {
+      "operations": 1000,
+      "medianMs": 0.196,
+      "p95Ms": 0.2265,
+      "maximumMs": 0.3818,
+      "targetMs": 20,
+      "status": "PASS"
+    },
+    "ghostmedia_local_drafts": {
+      "operations": 1000,
+      "medianMs": 0.1955,
+      "p95Ms": 0.2216,
+      "maximumMs": 0.2782,
+      "targetMs": 20,
+      "status": "PASS"
+    },
+    "subscription_creation": {
+      "operations": 500,
+      "medianMs": 6.5955,
+      "p95Ms": 9.0031,
+      "maximumMs": 42.289,
+      "targetMs": 50,
+      "status": "PASS"
+    },
+    "subscription_access": {
+      "operations": 500,
+      "medianMs": 0.2808,
+      "p95Ms": 0.5642,
+      "maximumMs": 0.952,
+      "targetMs": 20,
+      "status": "PASS"
+    },
+    "subscription_renewal": {
+      "operations": 500,
+      "medianMs": 6.8356,
+      "p95Ms": 10.8265,
+      "maximumMs": 35.3785,
+      "targetMs": 50,
+      "status": "PASS"
+    },
+    "intelligence_aggregation": {
+      "operations": 100,
+      "medianMs": 2.0008,
+      "p95Ms": 3.2338,
+      "maximumMs": 6.3908,
+      "targetMs": 100,
+      "status": "PASS"
+    },
+    "revenue_forecasting": {
+      "operations": 1000,
+      "medianMs": 0.4742,
+      "p95Ms": 0.5305,
+      "maximumMs": 0.6242,
+      "targetMs": 20,
+      "status": "PASS"
+    }
+  },
+  "assetOptimization": {
+    "phase": 41,
+    "beforeBytes": 1931858,
+    "afterBytes": 1928124,
+    "bytesSaved": 3734,
+    "icons": [
+      {
+        "file": "crafty-192.png",
+        "beforeBytes": 96051,
+        "afterBytes": 95168,
+        "pixelIntegrityVerified": true,
+        "decision": "OPTIMIZED"
+      },
+      {
+        "file": "crafty-512.png",
+        "beforeBytes": 584408,
+        "afterBytes": 583519,
+        "pixelIntegrityVerified": true,
+        "decision": "OPTIMIZED"
+      },
+      {
+        "file": "crafty-maskable.png",
+        "beforeBytes": 377846,
+        "afterBytes": 375884,
+        "pixelIntegrityVerified": true,
+        "decision": "OPTIMIZED"
+      }
+    ],
+    "originalArtworkPreserved": true
+  },
+  "regressionTestsPassed": 678,
+  "originalArtworkPreserved": true,
+  "browserPerformanceVerified": false,
+  "concurrentLoadVerified": false,
+  "productionPerformanceVerified": false,
+  "externalRequestsDuringBenchmark": 0,
+  "actualExpenditureZAR": 0,
+  "financialOperationsEnabled": false,
+  "productionReadiness": "NO_GO"
+}

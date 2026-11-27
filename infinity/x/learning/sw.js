@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE="crafty-learning-v4";
+const CACHE="crafty-learning-v5";
 
 const FILES=[
  "./voice/af-stop.mp3",
